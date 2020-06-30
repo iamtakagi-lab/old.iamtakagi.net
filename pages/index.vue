@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      parPage: 3,
+      parPage: 5,
       currentPage: 1
     };
   },
