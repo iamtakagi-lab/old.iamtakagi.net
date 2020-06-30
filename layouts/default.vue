@@ -1,7 +1,7 @@
 <template>
   <div>
     <div style="margin-top: 1em; text-align: center;">
-      <h2 style="margin-bottom: .5em; cursor: pointer;" @click="$router.push('/')">たかぎめも</h2>
+      <h1 style="margin-bottom: .5em; cursor: pointer; font-size: 28px" @click="$router.push('/')">たかぎめも</h1>
 
       <!--span>
           <a href="twitter.com/riptakagi">ついったー</a>
