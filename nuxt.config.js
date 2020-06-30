@@ -32,14 +32,15 @@ export default {
   css: [
     'vuesax/dist/vuesax.css',
     'material-icons/iconfont/material-icons.css',
-    {src: '~/assets/scss/markdown.scss', lang: 'scss'}
+    { src: '~/assets/scss/markdown.scss', lang: 'scss' }
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '@/plugins/vuesax'
+    '~/plugins/vuesax',
+    '~/plugins/day.js'
   ],
   /*
   ** Auto import components
@@ -66,7 +67,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: 'prism-themes/themes/prism-nord.css'
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
     }
   },
@@ -75,8 +76,9 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    
   },
-  
+
   generate: {
     fallback: true
   }
