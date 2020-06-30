@@ -2,5 +2,5 @@
 
 - Nuxt.js
 - @nuxtjs/content
-- Vuesax
+- Tailwind CSS
 - Netlify
