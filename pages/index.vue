@@ -26,7 +26,7 @@ export default {
   async asyncData({ $content }) {
     const projects = await $content("projects" || "index").fetch();
 
-    const articles = await $content("articles" || "index").sortBy('date').fetch();
+    const articles = await $content("articles" || "index").sortBy('createdAt').fetch();
 
     return { projects, articles };
   },
