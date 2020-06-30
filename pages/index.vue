@@ -55,7 +55,7 @@ export default {
   },
   data() {
     return {
-      parPage: 1,
+      parPage: 5,
       currentPage: 1
     };
   },
