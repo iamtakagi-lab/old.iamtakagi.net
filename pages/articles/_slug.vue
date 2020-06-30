@@ -8,18 +8,16 @@
           url: '/'
         },
         {
-          title: this.article.title + ' (' + article.date + ')',
+          title: this.article.title + ' (' + $dayjs(article.date).format('YYYY/MM/DD') + ')',
           url: 'articles/' + this.article.slug,
           active: true
         }
       ]" separator="chevron_right"></vs-breadcrumb>
     </div>
-    
-    
 
-    <div class="flex">
+    <article class="flex">
       <nuxt-content :document="article" style="margin-top: 1em;" />
-    </div>
+    </article>
   </div>
 </template>
 
@@ -29,6 +27,9 @@ export default {
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug || "index").fetch();
     return { article };
-  }
+  },
 };
 </script>
+
+<style lang="scss" scoped>
+</style>
