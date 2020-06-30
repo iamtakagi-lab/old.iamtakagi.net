@@ -796,88 +796,6 @@
     padding-right: 20px;
 }
 
-.nuxt-content code {
-    padding: 0.2em 0.4em;
-    margin: 0;
-    font-size: 85%;
-    background-color: rgba(27, 31, 35, 0.05);
-    border-radius: 3px;
-}
-
-.nuxt-content pre {
-    white-space: pre-wrap; /* css-3 */
-    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-    white-space: -pre-wrap; /* Opera 4-6 */
-    white-space: -o-pre-wrap; /* Opera 7 */
-    word-wrap: break-word; /* Internet Explorer 5.5+ */
-    max-width: 768px;
-
-    @media screen and (max-width: 768px) {
-        max-width: 738px;
-    }
-
-    @media screen and (max-width: 414px) {
-        max-width: 384px;
-    }
-
-    @media screen and (max-width: 411px) {
-        max-width: 388px;
-    }
-
-    @media screen and (max-width: 375px) {
-        max-width: 345px;
-    }
-
-    @media screen and (max-width: 360px) {
-        max-width: 330px;
-    }
-
-    @media screen and (max-width: 320px) {
-        max-width: 290px;
-    }
-}
-
-.nuxt-content pre > code {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    word-break: normal;
-    white-space: pre;
-    background: transparent;
-    border: 0;
-}
-
-.nuxt-content .highlight {
-    margin-bottom: 16px;
-}
-
-.nuxt-content .highlight pre {
-    margin-bottom: 0;
-    word-break: normal;
-}
-
-.nuxt-content .highlight pre,
-.nuxt-content pre {
-    padding: 16px;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-    background-color: #f6f8fa;
-    border-radius: 3px;
-}
-
-.nuxt-content pre code {
-    display: inline;
-    max-width: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: initial;
-    border: 0;
-}
-
 .nuxt-content .commit-tease-sha {
     display: inline-block;
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
@@ -1021,4 +939,99 @@
 .nuxt-content .task-list-item input {
     margin: 0 0.2em 0.25em -1.6em;
     vertical-align: middle;
+}
+
+.nuxt-content pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    max-width: 768px;
+
+    @media screen and (max-width: 768px) {
+        max-width: 738px;
+    }
+
+    @media screen and (max-width: 414px) {
+        max-width: 384px;
+    }
+
+    @media screen and (max-width: 411px) {
+        max-width: 388px;
+    }
+
+    @media screen and (max-width: 375px) {
+        max-width: 345px;
+    }
+
+    @media screen and (max-width: 360px) {
+        max-width: 330px;
+    }
+
+    @media screen and (max-width: 320px) {
+        max-width: 290px;
+    }
+}
+
+.nuxt-content code {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27, 31, 35, 0.05);
+    border-radius: 3px;
+}
+
+.nuxt-content pre > code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+}
+
+.nuxt-content .highlight {
+    margin-bottom: 16px;
+}
+
+.nuxt-content .highlight pre {
+    margin-bottom: 0;
+    word-break: normal;
+}
+
+.nuxt-content .highlight pre,
+.nuxt-content pre {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+}
+
+.nuxt-content pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: initial;
+    border: 0;
+}
+
+.nuxt-content-highlight {
+    position: relative;
+
+    .filename {
+        position: absolute;
+        margin-top: 0.1em;
+        margin-right: 1em;
+        right: 0;
+        z-index: 10;
+        color: grey;
+    }
 }
