@@ -78,6 +78,6 @@ export default {
   },
   
   generate: {
-    fallback: true
+    fallback: false
   }
 }
