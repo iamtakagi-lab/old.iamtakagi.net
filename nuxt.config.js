@@ -30,8 +30,6 @@ export default {
   ** Global CSS
   */
   css: [
-    'vuesax/dist/vuesax.css',
-    'material-icons/iconfont/material-icons.css',
     { src: '~/assets/scss/markdown.scss', lang: 'scss' }
   ],
   /*
@@ -39,7 +37,6 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '~/plugins/vuesax',
     '~/plugins/day.js'
   ],
   /*
@@ -51,6 +48,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/tailwindcss',
   ],
   /*
   ** Nuxt.js modules
