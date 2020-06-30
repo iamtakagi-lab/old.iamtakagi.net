@@ -11,7 +11,7 @@
     <div class="articles">
       <div v-for="article in articles.slice(getStart, getCurrent)" :key="article.slug" style="margin-top: 1em">
         <nuxt-link :to="'/articles/'+ article.slug">{{ article.title }}</nuxt-link>
-        - {{article.date}}
+        - {{$dayjs(article.date).format('YYYY/MM/DD')}}
       </div>
 
       <div class="flex" style="margin-top: 2em;">
@@ -26,7 +26,7 @@ export default {
   async asyncData({ $content }) {
     const projects = await $content("projects" || "index").fetch();
 
-    const articles = await $content("articles" || "index").sortBy('createdAt').fetch();
+    const articles = await $content("articles" || "index").sortBy('date', 'desc').fetch();
 
     return { projects, articles };
   },
@@ -65,6 +65,3 @@ export default {
   }
 };
 </script>
-
-<style lang="sass">
-</style>
