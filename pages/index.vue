@@ -1,10 +1,7 @@
 <template>
   <div class="flex">
-   <div
-      class="w-full lg:w-3/4 py-4 lg:pt-4 lg:pb-4 dark:border-gray-800">
-
+    <div class="w-full lg:w-3/4 py-4 lg:pt-4 lg:pb-4 dark:border-gray-800">
       <div class="lg:px-8">
-
         <div
           v-for="article in articles.slice(getStart, getCurrent)"
           :key="article.slug"
@@ -50,8 +47,8 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const articles = await $content('articles' || 'index')
-      .sortBy('date', 'desc')
+    const articles = await $content("articles" || "index")
+      .sortBy("date", "desc")
       .fetch();
 
     return { articles };
@@ -60,6 +57,11 @@ export default {
     return {
       parPage: 20,
       currentPage: 1
+    };
+  },
+  head() {
+    return {
+      title: this.doc.title
     };
   },
   computed: {
