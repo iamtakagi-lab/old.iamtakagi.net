@@ -1,50 +1,104 @@
 <template>
-  <div>
-    <div style="margin-top: 1em; text-align: center;">
-      <h1 style="margin-bottom: .5em; cursor: pointer; font-size: 28px" @click="$router.push('/')">たかぎめも</h1>
+  <div class="pt-16">
+    <Navbar />
 
-      <!--span>
-          <a href="twitter.com/riptakagi">ついったー</a>
-          /
-        <a href="twitter.com/riptakagi">ぎっとはぶ</a>
-      </span-->
-    </div>
+    <main class="container mx-auto px-4 lg:px-8">
+      <div class="flex flex-wrap relative">
 
-    <transition name="fade">
-      <nuxt style="margin: 1em" />
-    </transition>
+        <aside
+          class="h-screen w-full lg:w-1/5 fixed lg:sticky top-0 left-0 bottom-0 pt-16 lg:-mt-16 lg:block bg-white dark:bg-gray-900 lg:bg-transparent z-30 lg:border-r dark:border-gray-800"
+          :class="{ 'block': menu, 'hidden': !menu }"
+        >
+          <AsideNav :items="items" />
+
+        </aside>
+
+        <transition name="fade">
+          <Nuxt class="w-full" :class="getWidth()" />
+        </transition>
+
+      </div>
+    </main>
+
+    <Footer />
   </div>
 </template>
 
 <script>
+import Navbar from "@/components/Navbar";
+import AsideNav from "@/components/AsideNav";
+import Footer from "@/components/Footer";
+import ColorSwitcher from "@/components/color/ColorSwitcher";
+export default {
+  components: {
+    Navbar,
+    AsideNav,
+    Footer,
+    ColorSwitcher
+  },
+  data() {
+    return {
+      items: [
+        { title: 'ホーム', path: '/' },
+        { title: 'プロジェクト', path: '/3' }
+      ]
+    };
+  },
+  computed: {
+    bodyClass() {
+      return this.$store.state.menu.open
+        ? ["h-screen lg:h-auto overflow-y-hidden lg:overflow-y-auto"]
+        : [];
+    },
+    menu: {
+      get() {
+        return this.$store.state.menu.open;
+      },
+      set(val) {
+        this.$store.commit("menu/toggle", val);
+      }
+    }
+  },
+  methods: {
+    getWidth : function() {
+      return this.$route.path === '/' ? 'lg:w-3/5' : 'lg:w-4/5'
+    }
+  },
+  head() {
+    return {
+      bodyAttrs: {
+        class: [
+          ...this.bodyClass,
+          "antialiased text-gray-800 leading-normal bg-white dark:bg-gray-900 dark:text-gray-100"
+        ]
+      }
+    };
+  }
+};
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 * {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-.flex {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
+.dark-mode {
+  background: #1a202c;
 
-  max-width: 768px;
-  margin: 0 auto;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  span,
+  svg {
+    color: lightgray;
+  }
 }
 
-.articles {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-direction: column;
-
-  max-width: 768px;
-  margin: 0 auto;
+ul li {
+  list-style: circle;
 }
 
 .fade-enter-active,
@@ -56,4 +110,6 @@
 .fade-leave-to {
   opacity: 0;
 }
+
+
 </style>
