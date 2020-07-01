@@ -51,8 +51,7 @@ export default {
   */
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
-    '@/plugins/menu.client'
+    '@nuxtjs/color-mode'
   ],
 
   colorMode: {
