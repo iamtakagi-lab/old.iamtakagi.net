@@ -6,6 +6,11 @@
 }
 */
 
+.dark-mode .nuxt-content {
+    color: lightgray;
+}
+
+
 .nuxt-content .octicon {
     display: inline-block;
     fill: currentColor;
@@ -767,6 +772,8 @@
     font-weight: 600;
 }
 
+//--------------------------------------
+
 .nuxt-content table td,
 .nuxt-content table th {
     padding: 6px 13px;
@@ -781,6 +788,25 @@
 .nuxt-content table tr:nth-child(2n) {
     background-color: #f6f8fa;
 }
+
+//--------------------------------------
+
+.dark-mode .nuxt-content table td,
+.nuxt-content table th {
+    padding: 6px 13px;
+    border: 1px solid lightgray;
+}
+
+.dark-mode .nuxt-content table tr {
+    background-color: #1A202C;
+    border-top: 1px solid lightgray;
+}
+
+.dark-mode .nuxt-content table tr:nth-child(2n) {
+    background-color: #212938;
+}
+
+//--------------------------------------
 
 .nuxt-content img {
     max-width: 100%;
@@ -941,38 +967,6 @@
     vertical-align: middle;
 }
 
-.nuxt-content pre {
-    white-space: pre-wrap; /* css-3 */
-    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-    white-space: -pre-wrap; /* Opera 4-6 */
-    white-space: -o-pre-wrap; /* Opera 7 */
-    word-wrap: break-word; /* Internet Explorer 5.5+ */
-    max-width: 768px;
-
-    @media screen and (max-width: 768px) {
-        max-width: 738px;
-    }
-
-    @media screen and (max-width: 414px) {
-        max-width: 384px;
-    }
-
-    @media screen and (max-width: 411px) {
-        max-width: 388px;
-    }
-
-    @media screen and (max-width: 375px) {
-        max-width: 345px;
-    }
-
-    @media screen and (max-width: 360px) {
-        max-width: 330px;
-    }
-
-    @media screen and (max-width: 320px) {
-        max-width: 290px;
-    }
-}
 
 .nuxt-content code {
     padding: 0.2em 0.4em;
@@ -1023,13 +1017,16 @@
     border: 0;
 }
 
+
+
 .nuxt-content-highlight {
     position: relative;
 
     .filename {
+        font-size: 14px;
         position: absolute;
-        margin-top: 0.1em;
-        margin-right: 1em;
+        margin-top: .1em;
+        margin-right: .5em;
         right: 0;
         z-index: 10;
         color: grey;
