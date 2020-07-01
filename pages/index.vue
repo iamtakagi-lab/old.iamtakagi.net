@@ -1,44 +1,47 @@
 <template>
-  <div>
-    <div class="flex">
-     <h2 style="font-size: 28px">プロジェクト</h2>
-    </div>
+  <div class="flex">
+   <div
+      class="w-full lg:w-3/4 py-4 lg:pt-4 lg:pb-4 dark:border-gray-800">
 
-    <div class="flex">
-      <nuxt-content :document="projects" style="margin-top: 1em;" />
-    </div>
+      <div class="lg:px-8">
 
-    <div class="flex" style="margin-top: 2em;">
-       <h2 style="font-size: 28px">投稿記事</h2>
-    </div>
+        <div
+          v-for="article in articles.slice(getStart, getCurrent)"
+          :key="article.slug"
+          style="margin-top: 1em"
+        >
+          <nuxt-link :to="article.slug">
+            <p>{{ article.title + ' - ' + $dayjs(article.date).format('YYYY/MM/DD') }}</p>
+          </nuxt-link>
+        </div>
 
-    <div class="articles">
-      <div v-for="article in articles.slice(getStart, getCurrent)" :key="article.slug" style="margin-top: 1em">
-        <nuxt-link :to="'/articles/'+ article.slug">{{ article.title + ' - ' + $dayjs(article.date).format('YYYY/MM/DD') }}</nuxt-link>
-      </div>
+        <div class="mt-5">
+          <button
+            class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-1 border border-green-700 rounded"
+            v-show="hasPrev"
+            @click="clickCallback(getPrev)"
+          >前のページ</button>
 
-      <div style="margin-top: 2em;">
-       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 border border-blue-700 rounded"
-          v-show="hasPrev"
-          @click="clickCallback(getPrev)"
-        >前のページ</button>
+          <button
+            class="bg-gray-500 text-white font-bold py-1 px-1 border border-gray-700 rounded opacity-50 cursor-not-allowed"
+            v-show="!hasPrev"
+          >前のページ</button>
 
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 border border-blue-700 rounded opacity-50 cursor-not-allowed"
-          v-show="!hasPrev"
-        >前のページ</button>
+          <p
+            style="display: inline-flex; margin-left: 5px; margin-right: 5px;"
+          >{{currentPage}} / {{Math.ceil(articles.length / this.parPage)}}</p>
 
-        <p
-          style="display: inline-flex; margin-left: 5px; margin-right: 5px;"
-        >{{currentPage}} / {{Math.ceil(articles.length / this.parPage)}}</p>
+          <button
+            class="bg-green-500 text-white hover:bg-green-700 font-bold py-1 px-1 border border-green-700 rounded"
+            v-show="(this.currentPage < Math.ceil(articles.length / this.parPage))"
+            @click="clickCallback(getNext)"
+          >次のページ</button>
 
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 border border-blue-700 rounded"
-          v-show="(this.currentPage < Math.ceil(articles.length / this.parPage))"
-          @click="clickCallback(getNext)"
-        >次のページ</button>
-
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 border border-blue-700 rounded opacity-50 cursor-not-allowed"
-          v-show="!(this.currentPage < Math.ceil(articles.length / this.parPage))"
-        >次のページ</button>
+          <button
+            class="bg-gray-500 text-white font-bold py-1 px-1 border border-gray-700 rounded opacity-50 cursor-not-allowed"
+            v-show="!(this.currentPage < Math.ceil(articles.length / this.parPage))"
+          >次のページ</button>
+        </div>
       </div>
     </div>
   </div>
@@ -47,15 +50,15 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const projects = await $content("projects" || "index").fetch();
+    const articles = await $content('articles' || 'index')
+      .sortBy('date', 'desc')
+      .fetch();
 
-    const articles = await $content("articles" || "index").sortBy('date', 'desc').fetch();
-
-    return { projects, articles };
+    return { articles };
   },
   data() {
     return {
-      parPage: 5,
+      parPage: 20,
       currentPage: 1
     };
   },
