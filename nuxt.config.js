@@ -30,14 +30,15 @@ export default {
   ** Global CSS
   */
   css: [
-    { src: '~/assets/scss/markdown.scss', lang: 'scss' }
+    {src: '@/assets/scss/markdown.scss', lang: 'scss'}
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '~/plugins/day.js'
+    '@/plugins/day.js',
+    '@/plugins/vue-scrollactive'
   ],
   /*
   ** Auto import components
@@ -49,7 +50,12 @@ export default {
   */
   buildModules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
+
+  colorMode: {
+    preference: 'light'
+  },
   /*
   ** Nuxt.js modules
   */
@@ -76,6 +82,8 @@ export default {
   build: {
     
   },
+
+  loading: { color: '#48bb78' },
 
   generate: {
     fallback: true
