@@ -51,7 +51,8 @@ export default {
   */
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@/plugins/menu.client'
   ],
 
   colorMode: {
@@ -87,6 +88,7 @@ export default {
   loading: { color: '#48bb78' },
 
   generate: {
-    fallback: true
+    fallback: '404.html', // for Netlify
+    routes: ['/'] // give the first url to start crawling
   }
 }
