@@ -15,7 +15,8 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'たかぎめも',
+    titleTemplate: '%s / たかぎめも',
+    title: 'たかぎめも' || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
