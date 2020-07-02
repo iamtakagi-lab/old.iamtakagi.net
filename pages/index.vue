@@ -8,7 +8,7 @@
           style="margin-top: 1em"
         >
           <nuxt-link :to="article.slug">
-            <p>{{ article.title + ' - ' + $dayjs(article.date).format('YYYY/MM/DD') }}</p>
+            {{ article.title + ' - ' + $dayjs(article.date).format('YYYY/MM/DD') }}
           </nuxt-link>
         </div>
 
@@ -40,6 +40,7 @@
           >次のページ</button>
         </div>
       </div>
+
     </div>
   </div>
 </template>
@@ -61,7 +62,7 @@ export default {
   },
   head() {
     return {
-      title: 'ホーム'
+      title: "ホーム"
     };
   },
   computed: {
