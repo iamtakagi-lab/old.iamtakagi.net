@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# google analytics keys
+analytics-keys.json
