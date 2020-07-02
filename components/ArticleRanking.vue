@@ -12,13 +12,10 @@
  
 <script>
 export default {
-  data() {
-    return {
-      ranking: []
-    };
-  },
-  async mounted() {
+  async asyncData({ $content }) {
     const res = await this.$axios.$get("/.netlify/functions/article-ranking");
+
+    const ranking = []
 
     const rows = res.reports[0].data.rows;
 
@@ -30,11 +27,15 @@ export default {
       const item = rows[i];
       const slug = item.dimensions.toString().split("/")[2];
       const pv = Number(item.metrics[0].values);
-      this.ranking.push({
+      ranking.push({
         slug: slug,
         title: articles.find(v => v.slug === slug).title,
         pv: pv
       });
+    }
+
+    return {
+       ranking
     }
   }
 };

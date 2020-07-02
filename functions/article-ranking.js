@@ -1,6 +1,6 @@
-exports.handler = async function (event, context, callback) {
+const { google } = require('googleapis')
 
-    const { google } = require('googleapis')
+exports.handler = async function (event, context, callback) {
 
     const client = await google.auth.getClient({
         keyFile: './analytics-keys.json',
@@ -48,6 +48,6 @@ exports.handler = async function (event, context, callback) {
         headers: {
             'Content-type': 'application/json; charset=utf-8'
         },
-        body: googleRes.data
+        body: JSON.stringify(googleRes.data)
     })
 }
