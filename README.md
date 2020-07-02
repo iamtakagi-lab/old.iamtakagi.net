@@ -1,6 +1,6 @@
-# riptakagi.netlify.app
+# riptakagi.me
 
-https://riptakagi.netlify.app
+https://riptakagi.me
 
 - Nuxt.js
 - @nuxtjs/content
