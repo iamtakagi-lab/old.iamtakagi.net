@@ -31,7 +31,7 @@ export default {
   ** Global CSS
   */
   css: [
-    {src: '@/assets/scss/markdown.scss', lang: 'scss'}
+    { src: '@/assets/scss/markdown.scss', lang: 'scss' }
   ],
   /*
   ** Plugins to load before mounting the App
@@ -54,10 +54,6 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode'
   ],
-
-  colorMode: {
-    preference: 'light'
-  },
   /*
   ** Nuxt.js modules
   */
@@ -65,7 +61,27 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    '@nuxtjs/axios',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-171562434-1'
+    }]
   ],
+
+  /*
+  ** Build configuration
+  ** See https://nuxtjs.org/api/configuration-build/
+  */
+  build: {
+
+  },
+
+  loading: { color: '#48bb78' },
+
+  generate: {
+    fallback: '404.html', // for Netlify
+    routes: ['/'] // give the first url to start crawling
+  },
+
   /*
   ** Content module configuration
   ** See https://content.nuxtjs.org/configuration
@@ -77,18 +93,23 @@ export default {
       }
     }
   },
-  /*
-  ** Build configuration
-  ** See https://nuxtjs.org/api/configuration-build/
-  */
-  build: {
-    
+
+  colorMode: {
+    preference: 'light'
   },
 
-  loading: { color: '#48bb78' },
+  axios: {
+    proxy: true
+  },
+  /*
+  ** Axios module configuration
+  ** See https://axios.nuxtjs.org/options
+  */
 
-  generate: {
-    fallback: '404.html', // for Netlify
-    routes: ['/'] // give the first url to start crawling
+  proxy: {
+    '/.netlify': {
+      target: 'http://localhost:9000',
+      pathRewrite: { '^/.netlify/functions': '' }
+    }
   }
 }
