@@ -34,10 +34,15 @@
          <icon-twitter class="w-6 h-6" /></a>
       </li>
     </ul>
+
+    <div>
+        <ArticleRanking/>
+    </div>
   </div>
 </template>
 
 <script>
+
 export default {
   props: {
     items: {
