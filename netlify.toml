@@ -5,3 +5,6 @@
   command = "yarn build"
   publish = "dist"
   functions = "functions/dist"
+
+[[plugins]]
+package = "@netlify/plugin-functions-install-core"
