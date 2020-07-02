@@ -39,7 +39,8 @@ export default {
   */
   plugins: [
     '@/plugins/day.js',
-    '@/plugins/vue-scrollactive'
+    '@/plugins/vue-scrollactive',
+    '@/plugins/menu.client'
   ],
   /*
   ** Auto import components
