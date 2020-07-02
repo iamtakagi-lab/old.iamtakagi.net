@@ -1,4 +1,4 @@
-exports.handler = function (event, context, callback) {
+exports.handler = async function (event, context, callback) {
 
     const { google } = require('googleapis')
 
