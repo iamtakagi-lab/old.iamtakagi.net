@@ -8,3 +8,4 @@ https://riptakagi.me
 - @nuxtjs/content
 - Tailwind CSS
 - Netlify
+- Netlify Lambda
