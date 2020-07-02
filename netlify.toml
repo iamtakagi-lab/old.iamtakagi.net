@@ -4,7 +4,7 @@
 [build]
   command = "yarn build"
   publish = "dist"
-  functions = "functions/dist"
+  functions = "functions"
 
 [[plugins]]
 package = "@netlify/plugin-functions-install-core"
