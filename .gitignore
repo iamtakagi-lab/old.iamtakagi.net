@@ -91,3 +91,6 @@ sw.*
 
 # google analytics keys
 analytics-keys.json
+
+# lambda
+.lambda
