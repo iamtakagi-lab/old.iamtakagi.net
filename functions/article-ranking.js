@@ -48,6 +48,6 @@ exports.handler = async function (event, context, callback) {
         headers: {
             'Content-type': 'application/json; charset=utf-8'
         },
-        body: JSON.stringify(googleRes.data)
+        body: googleRes.data
     })
 }
