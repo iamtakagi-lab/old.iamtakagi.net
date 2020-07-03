@@ -14,6 +14,7 @@
     "build:lambda": "netlify-lambda build ./functions"
   },
   "dependencies": {
+    "@netlify/zip-it-and-ship-it": "^1.3.2",
     "@nuxt/content": "^1.3.2",
     "@nuxtjs/axios": "^5.11.0",
     "@nuxtjs/google-analytics": "^2.3.0",
