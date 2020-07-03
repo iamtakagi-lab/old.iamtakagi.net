@@ -8,6 +8,12 @@
 
 .dark-mode .nuxt-content {
     color: lightgray;
+
+    & h2,
+    & h3,
+    & blockquote {
+      @apply border-gray-800;
+    }
 }
 
 
@@ -695,8 +701,8 @@
 
 .nuxt-content h1,
 .nuxt-content h2 {
-    padding-bottom: 0.3em;
-    //border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
+    @apply border-b
 }
 
 .nuxt-content h2 {
