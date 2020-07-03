@@ -1,9 +1,13 @@
 const { google } = require('googleapis')
 
+const { zipFunctions } = require('@netlify/zip-it-and-ship-it')
+
+zipFunctions('functions', '.lambda')
+
 exports.handler = async function (event, context, callback) {
 
     const client = await google.auth.getClient({
-        keyFile: 'analytics-keys.json',
+        keyFile: './analytics-keys.json',
         scopes: 'https://www.googleapis.com/auth/analytics.readonly'
     })
 
