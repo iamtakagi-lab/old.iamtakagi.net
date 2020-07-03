@@ -80,7 +80,6 @@ export default {
 <style lang="postcss">
 
 .dark-mode {
-  background: #1a202c;
 
   h1,
   h2,
