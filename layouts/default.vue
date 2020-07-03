@@ -78,9 +78,6 @@ export default {
 </script>
 
 <style lang="postcss">
-* {
-  font-family: "Noto Sans JP", sans-serif;
-}
 
 .dark-mode {
   background: #1a202c;
