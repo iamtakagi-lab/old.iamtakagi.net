@@ -5,9 +5,9 @@
       class="w-full lg:w-3/4 py-4 lg:pt-8 lg:pb-4 dark:border-gray-800"
     >
       <article class="lg:px-8">
-        <h2
-          class="text-xl mb-3"
-        >{{this.article.title + ' (' + $dayjs(article.date).format('YYYY/MM/DD') + ')' }}</h2>
+        <h1
+          class="text-xl mb-8"
+        >{{this.article.title + ' (' + $dayjs(article.date).format('YYYY/MM/DD') + ')' }}</h1>
         <nuxt-content :document="article" />
       </article>
     </div>
