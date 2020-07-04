@@ -11,7 +11,7 @@
     "serve": "nuxt serve",
     "test": "jest",
     "start:lambda": "netlify-lambda serve ./functions",
-    "build:lambda": "netlify-lambda build ./functions"
+    "build:lambda": "netlify-lambda build ./functions && node package-functions.js"
   },
   "dependencies": {
     "@netlify/zip-it-and-ship-it": "^1.3.2",
