@@ -107,6 +107,6 @@ export default {
   */
 
   proxy: {
-    '/.netlify/': { target: 'http://localhost/' }
+    '/.netlify/': { target: 'http://riptakagi.netlify.app/' }
   }
 }
