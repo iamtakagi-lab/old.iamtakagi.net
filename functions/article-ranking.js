@@ -1,6 +1,6 @@
 const { google } = require('googleapis')
 
-const { CLIENT_EMAIL, PRIVATE_KEY} = process.env;
+const { CLIENT_EMAIL, PRIVATE_KEY } = process.env;
 
 exports.handler = async function (event, context, callback) {
 
