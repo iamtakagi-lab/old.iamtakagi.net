@@ -1,5 +1,4 @@
 <template>
-  <transition name="fade">
     <div class="lg:pl-0 p-2">
       <div class="text-xl">月間ランキング</div>
 
@@ -13,7 +12,6 @@
         >{{ i+1 + '位: ' + r.article.title + ' - ' + $dayjs(r.article.date).format('YYYY/MM/DD')}}</nuxt-link>
       </div>
     </div>
-  </transition>
 </template>
  
 <script>
