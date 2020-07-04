@@ -1,15 +1,19 @@
 <template>
-  <div class="lg:pl-0 p-2">
-    <div class="text-xl">月間ランキング</div>
+  <transition name="fade">
+    <div class="lg:pl-0 p-2">
+      <div class="text-xl">月間ランキング</div>
 
-      <div v-for="(r, i) in ranking"
-          :key="i"
-          class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100">
+      <div
+        v-for="(r, i) in ranking"
+        :key="i"
+        class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100"
+      >
         <nuxt-link
           :to="r.article.slug"
         >{{ i+1 + '位: ' + r.article.title + ' - ' + $dayjs(r.article.date).format('YYYY/MM/DD')}}</nuxt-link>
       </div>
-  </div>
+    </div>
+  </transition>
 </template>
  
 <script>
@@ -17,7 +21,7 @@ export default {
   data() {
     return {
       ranking: []
-    }
+    };
   },
   async fetch() {
     const res = await this.$axios.$get("/.netlify/functions/article-ranking");
@@ -28,7 +32,7 @@ export default {
       .sortBy("date", "desc")
       .fetch();
 
-    const ranking = []
+    const ranking = [];
 
     for (var i = 0; i < rows.length; i++) {
       const item = rows[i];
