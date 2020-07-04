@@ -11,7 +11,7 @@
     "serve": "nuxt serve",
     "test": "jest",
     "start:lambda": "netlify-lambda serve ./functions",
-    "build:lambda": "netlify-lambda build ./functions && cp analytics-keys.json /var/task/analytics-keys.json"
+    "build:lambda": "netlify-lambda build ./functions && cp analytics-keys.json ./var/task/analytics-keys.json"
   },
   "dependencies": {
     "@nuxt/content": "^1.3.2",
