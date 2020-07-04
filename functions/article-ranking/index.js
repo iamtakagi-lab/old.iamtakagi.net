@@ -1,9 +1,10 @@
 const { google } = require('googleapis')
+const keyFile = require('./analytics-keys.json')
 
 exports.handler = async function (event, context, callback) {
 
     const client = await google.auth.getClient({
-        keyFile: './analytics-keys.json',
+        keyFile: keyFile,
         scopes: 'https://www.googleapis.com/auth/analytics.readonly'
     })
 
