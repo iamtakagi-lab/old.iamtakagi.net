@@ -1,11 +1,13 @@
 const { google } = require('googleapis')
 
+const { CLIENT_EMAIL, PRIVATE_KEY} = process.env;
+
 exports.handler = async function (event, context, callback) {
 
     const client = await google.auth.getClient({
         credentials: {
-            client_email: process.env.CLIENT_EMAIL,
-            private_key: process.env.PRIVATE_KEY
+            client_email: CLIENT_EMAIL,
+            private_key: PRIVATE_KEY
         },
         scopes: 'https://www.googleapis.com/auth/analytics.readonly'
     })
