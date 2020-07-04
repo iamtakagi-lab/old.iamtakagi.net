@@ -11,7 +11,7 @@
     "serve": "nuxt serve",
     "test": "jest",
     "start:lambda": "netlify-lambda serve ./functions",
-    "build:lambda": "node package-functions.js"
+    "build:lambda": "node functions.build.js"
   },
   "dependencies": {
     "@nuxt/content": "^1.3.2",
