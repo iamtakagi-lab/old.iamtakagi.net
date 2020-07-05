@@ -8,7 +8,7 @@
            class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100"
         >
           <nuxt-link :to="article.slug">
-            {{ article.title + ' - ' + $dayjs(article.date).format('YYYY/MM/DD') }}
+            {{ article.title + ' (' + $dayjs(article.date).format('YYYY/MM/DD') + ')' }}
           </nuxt-link>
         </div>
 
