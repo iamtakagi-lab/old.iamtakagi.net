@@ -26,6 +26,14 @@
           class="px-2 rounded font-medium py-1 block text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100 hover:text-green-500 mr-2">
          <icon-github class="w-6 h-6" /></a>
 
+         <a href='https://www.youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw'
+          target="_blank"
+                rel="noopener noreferrer"
+                title="YouTube"
+                name="YouTube"
+         class="px-2 rounded font-medium py-1 block text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100 hover:text-green-500 mr-2">
+         <icon-youtube class="w-6 h-6" /></a>
+
           <a href='https://twitter.com/riptakagi'
           target="_blank"
                 rel="noopener noreferrer"
