@@ -40,7 +40,7 @@ exports.handler = async function (event, context, callback) {
                         fieldName: 'ga:pageviews', // ページビューでソート
                         sortOrder: 'DESCENDING'  // 降順でソートする設定
                     },
-                    pageSize: 5 // レスポンス件数を5件に
+                    pageSize: 6 // レスポンス件数を6件に
                 }
             ]
         }
