@@ -38,7 +38,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '@/plugins/day.js',
+    '@/plugins/day',
     '@/plugins/vue-scrollactive',
     '@/plugins/menu.client'
   ],
