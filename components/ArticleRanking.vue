@@ -1,17 +1,17 @@
 <template>
-    <div class="lg:pl-0 p-2">
-      <div class="text-xl">月間ランキング</div>
+  <div class="lg:pl-0 p-2">
+    <div class="text-xl">月間ランキング</div>
 
-      <div
-        v-for="(r, i) in ranking"
-        :key="i"
-        class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100"
-      >
-        <nuxt-link
-          :to="r.article.slug"
-        >{{ i+1 + '位: ' + r.article.title + ' - ' + $dayjs(r.article.date).format('YYYY/MM/DD')}}</nuxt-link>
-      </div>
+    <div
+      v-for="(r, i) in ranking"
+      :key="i"
+      class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100"
+    >
+      <nuxt-link
+        :to="r.article.slug"
+      >{{ i+1 + '位: ' + r.article.title + ' - ' + $dayjs(r.article.date).format('YYYY/MM/DD')}}</nuxt-link>
     </div>
+  </div>
 </template>
  
 <script>
@@ -39,10 +39,14 @@ export default {
       if (slug != "" && slug != null && slug != undefined) {
         const pv = Number(item.metrics[0].values);
 
-        this.ranking.push({
-          pv: pv,
-          article: articles.find(v => v.slug === slug)
-        });
+        const article = articles.find(v => v.slug === slug);
+
+        if (article) {
+          this.ranking.push({
+            pv: pv,
+            article: articles.find(v => v.slug === slug)
+          });
+        }
       }
     }
   }
