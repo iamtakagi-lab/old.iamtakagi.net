@@ -34,7 +34,7 @@ export default {
 
     for (var i = 0; i < rows.length; i++) {
       const item = rows[i];
-      const slug = item.dimensions[0].split("/")[1];
+      const slug = item.dimensions.toString().split("/")[1];
 
       if (slug != "" && slug != null && slug != undefined) {
         const pv = Number(item.metrics[0].values);
