@@ -52,7 +52,8 @@ export default {
   */
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@nuxtjs/google-analytics'
   ],
   /*
   ** Nuxt.js modules
@@ -62,10 +63,11 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     '@nuxtjs/axios',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-171562434-1'
-    }]
   ],
+
+  googleAnalytics: {
+    id: 'UA-171562434-1'
+  },
 
   /*
   ** Build configuration
