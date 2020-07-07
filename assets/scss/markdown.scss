@@ -728,7 +728,7 @@
 
 .nuxt-content ol,
 .nuxt-content ul {
-    padding-left: 2em;
+    //padding-left: 2em;
 }
 
 .nuxt-content ol ol,
@@ -741,6 +741,7 @@
 
 .nuxt-content li {
     word-wrap: break-all;
+    list-style: inside;
 }
 
 .nuxt-content li > p {
