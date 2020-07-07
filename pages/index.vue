@@ -5,11 +5,11 @@
         <div
           v-for="article in articles.slice(getStart, getCurrent)"
           :key="article.slug"
-           class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100"
+          class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100"
         >
-          <nuxt-link :to="article.slug">
-            {{ article.title + ' (' + $dayjs(article.date).format('YYYY/MM/DD') + ')' }}
-          </nuxt-link>
+          <nuxt-link
+            :to="article.slug"
+          >{{ article.title + ' (' + $dayjs(article.date).format('YYYY/MM/DD') + ')' }}</nuxt-link>
         </div>
 
         <div class="mt-5">
@@ -40,7 +40,6 @@
           >次のページ</button>
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -48,9 +47,11 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const articles = await $content('articles' || 'index')
+    const articles = await $content("articles" || "index")
       .sortBy("pos", "desc")
       .fetch();
+
+      console.log(articles)
 
     return { articles };
   },

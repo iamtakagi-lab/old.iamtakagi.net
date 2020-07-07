@@ -117,7 +117,7 @@ export default {
       const result = this.focusIndex === -1 ? this.results[0] : this.results[this.focusIndex]
       const path = `/${result.slug !== 'index' ? result.slug : ''}`
       this.$router.push(path)
-      // Unfocus the input and reset the query.
+      
       this.$refs.search.blur()
       this.q = ''
     }

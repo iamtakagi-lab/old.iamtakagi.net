@@ -85,10 +85,6 @@ export default {
   }
 }
 
-ul li {
-  list-style: circle;
-}
-
 .fade-enter-active,
 .fade-leave-active {
   will-change: opacity;
