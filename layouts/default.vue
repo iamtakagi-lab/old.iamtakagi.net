@@ -4,11 +4,15 @@
 
     <main class="container mx-auto px-4 lg:px-8">
       <div class="flex flex-wrap relative">
-
         <aside
           class="h-screen w-full lg:w-1/5 fixed lg:sticky top-0 left-0 bottom-0 pt-16 lg:-mt-16 lg:block bg-white dark:bg-gray-900 lg:bg-transparent z-30 lg:border-r dark:border-gray-800"
           :class="{ 'block': menu, 'hidden': !menu }"
         >
+          
+            <div class="mb-4 lg:hidden m-5">
+              <SearchInput />
+            </div>
+         
           <AsideNav :items="items" />
 
         </aside>
@@ -16,8 +20,9 @@
         <transition name="fade">
           <Nuxt class="w-full" :class="getWidth()" />
         </transition>
-
       </div>
+
+
     </main>
 
     <Footer />
@@ -25,22 +30,12 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar";
-import AsideNav from "@/components/AsideNav";
-import Footer from "@/components/Footer";
-import ColorSwitcher from "@/components/color/ColorSwitcher";
 export default {
-  components: {
-    Navbar,
-    AsideNav,
-    Footer,
-    ColorSwitcher
-  },
   data() {
     return {
       items: [
-        { title: 'ホーム', path: '/' },
-        { title: 'プロジェクト', path: '/3' }
+        { title: "ホーム", path: "/" },
+        { title: "プロジェクト", path: "/3" }
       ]
     };
   },
@@ -60,8 +55,8 @@ export default {
     }
   },
   methods: {
-    getWidth : function() {
-      return this.$route.path === '/' ? 'lg:w-3/5' : 'lg:w-4/5'
+    getWidth: function() {
+      return this.$route.path === "/" ? "lg:w-3/5" : "lg:w-4/5";
     }
   },
   head() {
@@ -78,9 +73,7 @@ export default {
 </script>
 
 <style lang="postcss">
-
 .dark-mode {
-
   h1,
   h2,
   h3,
@@ -106,6 +99,4 @@ ul li {
 .fade-leave-to {
   opacity: 0;
 }
-
-
 </style>

@@ -48,7 +48,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const articles = await $content("articles" || "index")
+    const articles = await $content('articles' || 'index')
       .sortBy("pos", "desc")
       .fetch();
 
