@@ -65,6 +65,12 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     '@nuxtjs/axios',
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-7932483299460648',
+      pageLevelAds: true,
+      analyticsUacct: 'UA-171562434-1',
+      analyticsDomainName: 'riptakagi.me'
+    }]
   ],
 
   /*
