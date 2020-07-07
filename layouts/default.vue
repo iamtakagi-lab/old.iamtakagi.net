@@ -8,21 +8,20 @@
           class="h-screen w-full lg:w-1/5 fixed lg:sticky top-0 left-0 bottom-0 pt-16 lg:-mt-16 lg:block bg-white dark:bg-gray-900 lg:bg-transparent z-30 lg:border-r dark:border-gray-800"
           :class="{ 'block': menu, 'hidden': !menu }"
         >
-          
-            <div class="mb-4 lg:hidden m-5">
-              <SearchInput />
-            </div>
-         
+          <div class="mb-4 lg:hidden m-5">
+            <SearchInput />
+          </div>
+
           <AsideNav :items="items" />
-
         </aside>
+        
+          <transition name="fade">
 
-        <transition name="fade">
-          <Nuxt class="w-full" :class="getWidth()" />
-        </transition>
+            <Nuxt class="w-full" :class="getWidth()" />
+
+          </transition>
+       
       </div>
-
-
     </main>
 
     <Footer />

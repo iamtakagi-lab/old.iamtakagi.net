@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <div class="w-full lg:w-3/4 py-4 lg:pt-4 lg:pb-4 dark:border-gray-800">
+    <div class="w-full py-4 lg:pt-4 lg:pb-4 dark:border-gray-800 lg:border-r">
       <div class="lg:px-8">
         <div
           v-for="article in articles.slice(getStart, getCurrent)"
