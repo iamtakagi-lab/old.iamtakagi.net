@@ -79,7 +79,7 @@ export default {
         },
         {
           hid: 'og:description',
-          name: 'og:description',
+          property: 'og:description',
           content: 'たかぎのちっぽけなブログ'
         }
       ]
