@@ -75,7 +75,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'takagi memo'
+          content: 'たかぎのちっぽけなブログ'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'たかぎのちっぽけなブログ'
         }
       ]
     };
