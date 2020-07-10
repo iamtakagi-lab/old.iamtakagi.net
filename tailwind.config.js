@@ -12,7 +12,8 @@ module.exports = {
           nuxt: {
             gray: '#243746',
             lightgreen: '#41B38A',
-            green: '#158876'
+            green: '#158876',
+            blue: '#1DA1F2'
           }
         },
         fill: theme => ({
