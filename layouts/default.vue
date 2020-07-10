@@ -34,7 +34,7 @@ export default {
     return {
       items: [
         { title: "ホーム", path: "/" },
-        { title: "プロジェクト", path: "/3" }
+        { title: "プロジェクト", path: "/projects" }
       ]
     };
   },
