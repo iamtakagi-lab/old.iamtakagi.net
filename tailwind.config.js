@@ -19,12 +19,14 @@ module.exports = {
         fill: theme => ({
           'nuxt-gray': theme('colors.nuxt.gray'),
           'nuxt-lightgreen': theme('colors.nuxt.lightgreen'),
-          'nuxt-green': theme('colors.nuxt.green')
+          'nuxt-green': theme('colors.nuxt.green'),
+          'nuxt-blue': theme('colors.nuxt.blue')
         }),
         stroke: theme => ({
           'nuxt-gray': theme('colors.nuxt.gray'),
           'nuxt-lightgreen': theme('colors.nuxt.lightgreen'),
-          'nuxt-green': theme('colors.nuxt.green')
+          'nuxt-green': theme('colors.nuxt.green'),
+          'nuxt-blue': theme('colors.nuxt.blue')
         })
       }
     },
