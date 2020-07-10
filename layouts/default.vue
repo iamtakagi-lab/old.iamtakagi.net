@@ -65,7 +65,19 @@ export default {
           ...this.bodyClass,
           "antialiased text-gray-800 leading-normal bg-white dark:bg-gray-900 dark:text-gray-100"
         ]
-      }
+      },
+      meta: [
+        {
+          hid: 'author',
+          name: 'author',
+          content: 'riptakagi'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'takagi memo'
+        }
+      ]
     };
   }
 };
