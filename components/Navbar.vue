@@ -20,7 +20,7 @@
 
         <div class="flex items-center justify-end w-1/6">
           <button
-            class="lg:hidden p-2 rounded-md hover:text-green-500 focus:outline-none focus:outline-none -mr-2"
+            class="lg:hidden p-2 rounded-md hover:text-blue-500 focus:outline-none focus:outline-none -mr-2"
             aria-label="Hamburger Menu"
             @click.stop="menu = !menu"
           >
