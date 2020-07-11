@@ -60,6 +60,7 @@ export default {
   },
   head() {
     return {
+      title: 'たかぎめも',
       bodyAttrs: {
         class: [
           ...this.bodyClass,
@@ -75,7 +76,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'たかぎのちっぽけなブログ'
+          content: 'たかぎのちっぽけな'
         },
         {
           hid: 'og:description',

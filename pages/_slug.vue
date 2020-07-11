@@ -25,6 +25,7 @@ export default {
   },
   head() {
     return {
+      title: this.article.title,
       bodyAttrs: {
         class: [
           ...this.bodyClass,
