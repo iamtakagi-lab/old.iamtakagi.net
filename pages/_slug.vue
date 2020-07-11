@@ -64,7 +64,12 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content: 'たかぎのブログ'
-      }
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://i.imgur.com/vUy5pMl.png'
+      },
     ]
     };
   }
