@@ -25,7 +25,47 @@ export default {
   },
   head() {
     return {
-      title: this.article.title
+      title: this.article.title,
+      meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://riptakagi.me'
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@riptakagi'
+      },
+      {
+        hid: 'twitter:creator',
+        name: 'twitter:creator',
+        content: '@riptakagi'
+      },
+      {
+        hid: 'note:card',
+        property: 'note:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'たかぎのブログ'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'たかぎのブログ'
+      }
+    ]
     };
   }
 };
