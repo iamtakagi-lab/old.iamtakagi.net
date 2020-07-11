@@ -60,7 +60,6 @@ export default {
   },
   head() {
     return {
-      title: 'たかぎめも',
       bodyAttrs: {
         class: [
           ...this.bodyClass,
