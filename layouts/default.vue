@@ -57,7 +57,14 @@ export default {
     getWidth: function() {
       return this.$route.path === "/" ? "lg:w-3/5" : "lg:w-4/5";
     }
-  }
+  },
+  head () {
+    return {
+      bodyAttrs: {
+        class: [...this.bodyClass, 'antialiased text-gray-800 leading-normal bg-white dark:bg-gray-900 dark:text-gray-100']
+      }
+    }
+   }
 };
 </script>
 
