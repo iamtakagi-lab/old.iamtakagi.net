@@ -44,6 +44,16 @@ export default {
         hid: 'note:card',
         property: 'note:card',
         content: 'summary_large_image'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'たかぎのブログ'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'たかぎのブログ'
       }
     ],
     link: [
