@@ -131,7 +131,7 @@ export default {
     analyze: true
   },
 
-  loading: { color: '#48bb78' },
+  loading: { color: '#1DA1F2' },
 
   generate: {
     fallback: '404.html', // for Netlify
