@@ -14,7 +14,7 @@
 
         <div class="mt-5">
           <button
-            class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-1 border border-blue-700 rounded"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 border border-blue-700 rounded"
             v-show="hasPrev"
             @click="clickCallback(getPrev)"
           >前のページ</button>
@@ -29,7 +29,7 @@
           >{{currentPage}} / {{Math.ceil(articles.length / this.parPage)}}</p>
 
           <button
-            class="bg-green-500 text-white hover:bg-green-700 font-bold py-1 px-1 border border-blue-700 rounded"
+            class="bg-blue-500 text-white hover:bg-blue-700 font-bold py-1 px-1 border border-blue-700 rounded"
             v-show="(this.currentPage < Math.ceil(articles.length / this.parPage))"
             @click="clickCallback(getNext)"
           >次のページ</button>
