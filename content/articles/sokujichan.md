@@ -4,7 +4,7 @@ date: 2020-07-19
 pos: 22
 ---
 
-## 即時ちゃん(6vs6) とは
+## 即時ちゃん(6vs6)
 
 ![](https://i.imgur.com/UyoqkLn.png)
 
