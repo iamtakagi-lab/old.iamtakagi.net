@@ -47,8 +47,10 @@ pos: 22
 
 - 右クリックし、対話を選択して開いておく。
 
-![](https://i.imgur.com/Yr0wihg.png)
+![](https://i.imgur.com/ZnsOtTL.png)
 
 - 位置と大きさをお好みに調整する
 
 ![](https://i.imgur.com/k9CFreI.jpg)
+
+- 表示されない場合は「現在のページを再読込」をクリックする
