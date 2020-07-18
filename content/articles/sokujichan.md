@@ -49,6 +49,6 @@ pos: 22
 
 ![](https://i.imgur.com/Yr0wihg.png)
 
-- 大きさと位置をお好みに調整する
+- 位置と大きさをお好みに調整する
 
 ![](https://i.imgur.com/k9CFreI.jpg)
