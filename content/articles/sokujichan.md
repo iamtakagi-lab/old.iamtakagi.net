@@ -12,6 +12,7 @@ pos: 22
 
 [ここをクリックしてサーバーに招待](https://discord.com/api/oauth2/authorize?client_id=716931790865956904&permissions=3136&scope=bot)
 
+リポジトリ: https://github.com/riptakagi/sokujichan
 
 ## イメージ
 
