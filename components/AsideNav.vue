@@ -34,6 +34,14 @@
          class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
          <icon-youtube class="w-6 h-6" /></a>
 
+         <a href='https://twitch.tv/riptakagi'
+          target="_blank"
+                rel="noopener noreferrer"
+                title="Twitch"
+                name="Twitch"
+         class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
+         <icon-twitch class="w-6 h-6" /></a>
+
           <a href='https://twitter.com/riptakagi'
           target="_blank"
                 rel="noopener noreferrer"
