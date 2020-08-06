@@ -9,7 +9,7 @@
     >
       <nuxt-link
         :to="r.article.slug"
-      >{{ i+1 + '位: ' + r.article.title + ' (' + $dayjs(r.article.date).format('YYYY/MM/DD') + ')' }}</nuxt-link>
+      >{{ i+1 + '位 (' + r.pv + 'views ):' + r.article.title + ' (' + $dayjs(r.article.date).format('YYYY/MM/DD') + ')' }}</nuxt-link>
     </div>
   </div>
 </template>
