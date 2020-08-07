@@ -23,6 +23,7 @@ MK8DX 150cc Lounge の Updaterもしています。(2020/06/20 ~)
 - Fortnite (200h↑)
 - BF4, BF1, BFV
 - SF2
+- osu (最高ランク9万代)
 - OW, Apex, Valorant, LoL (未プレイ)
 
 ## スキル
