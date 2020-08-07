@@ -11,7 +11,7 @@ pos: 26
 - 音楽観賞
 
 ## スキル
-- DISCORD Bot, WebApp 開発
+- Discord Bot, WebApp 開発
 - サーバーサイド, バックエンド: Java, Kotlin, JavaScript, TypeScript, NodeJS
 - フロントエンド: Vue, React, GrapqhQL, JavaScript, TypeScript
 - データベース: MySQL, MongoDB, Redis, GoogleSpreadSheet
