@@ -15,6 +15,16 @@ MK8DX 150cc Lounge の Updaterもしています。(2020/06/20 ~)
 - 音楽観賞: 作業中や勉強中にSpotifyで聴いています。
 - 動画(配信)観賞: YouTuberや実況者さんの動画を見たり、eSports観戦が好きです。
 
+## ゲーム
+- Minecraft (∞h↑)
+- PUBG (1000h↑)
+- MK8DX (900h↑)
+- R6S (600h↑)
+- Fortnite (200h↑)
+- BF4, BF1, BFV
+- SF2
+- Apex, Valorant, LoL (未プレイ)
+
 ## スキル
 - Discord Bot, WebApp 開発
 - サーバーサイド, バックエンド: Java, Kotlin, JavaScript, TypeScript, NodeJS
