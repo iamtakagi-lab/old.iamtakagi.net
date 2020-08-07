@@ -34,7 +34,7 @@ Takagiというニックネームで、大好きなマリオカート8DXやプ�
 - RAM: 8GB DDR4
 - Capture: Elgato Game Capture HD60 Pro
 
-### 開発
+### 開発・勉強用
 - PC: MacBookPro 13-inch, 2020
 - CPU: クアッドコアIntel Core i5 1.4GHz
 - RAM: 8GB 2133MHz LPDDR3
