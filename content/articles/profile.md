@@ -17,7 +17,7 @@ pos: 26
 - データベース: MySQL, MongoDB, Redis, GoogleSpreadSheet
 - サーバーレス: Netlify Functions, AWS Lambda, Cloud Functions
 - インフラ: Linux、Docker, Nginx, Apache, Cloudflare
-- その他: Heroku, Glitch, Firebase
+- その他: Heroku, Glitch, Firebase, GoogleAppsScript
 
 ## 環境
 
