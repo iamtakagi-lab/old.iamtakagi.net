@@ -13,6 +13,6 @@ pos: 3
 [MK8DX TrackTable Bot - コース別 予測アイテムテーブルBot](https://github.com/riptakagi/mk8dx-tracktablebot) | [招待する](https://discord.com/api/oauth2/authorize?client_id=714641356600901736&permissions=35840&scope=bot) | | 160+
 [SokujiChan (OBS対応)](https://github.com/riptakagi/sokujichan) | [招待する](https://discord.com/api/oauth2/authorize?client_id=716931790865956904&permissions=3136&scope=bot) | | 50+
 
-## Web Apps
+## Apps
 
-現在公開中のものはありません
+現在公開中のものはありません🥺
