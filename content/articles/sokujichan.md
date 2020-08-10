@@ -1,5 +1,5 @@
 ---
-title: 'Discord & OBS対応 集計機 | SokujiChan【使い方ガイド】'
+title: 'Discord & OBS対応 即時集計機 | SokujiChan【使い方ガイド】'
 date: 2020-07-19
 pos: 22
 ---
