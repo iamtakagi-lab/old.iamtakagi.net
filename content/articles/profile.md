@@ -11,7 +11,7 @@ MK8DX 150cc Lounge の Updaterもしています。(2020/06/20 ~)
 ## 趣味
 - マリオカート8DX: 2019/11 ~ (2019/12 VR1万達成) (2019/2 VR2万達成) (2019/4 VR3万達成)
 - プログラミング
-- アニメ観賞: https://annict.jp/@Takagi/
+- アニメ観賞: https://annict.jp/@Takagi
 - 音楽観賞: 作業中や勉強中にSpotifyで聴いています。
 - 動画(配信)観賞: YouTuberや実況者さんの動画を見たり、eSports観戦をするのが好きです。
 
