@@ -32,7 +32,7 @@ MK8DX 150cc Lounge の Updaterもしています。(2020/06/20 ~)
 - フロントエンド: Vue, React, GrapqhQL, JavaScript, TypeScript
 - データベース: MySQL, MongoDB, Redis, GoogleSpreadSheet
 - サーバーレス: Netlify Functions, AWS Lambda, Cloud Functions
-- インフラ: Linux、Docker, Nginx, Apache, Cloudflare
+- インフラ: Linux, Docker, Nginx, Apache, Cloudflare
 - その他: Heroku, Glitch, Firebase, GoogleAppsScript
 
 ## 環境
