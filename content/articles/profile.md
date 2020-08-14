@@ -29,11 +29,11 @@ MK8DX 150cc Lounge の Updaterもしています。(2020/06/20 ~)
 ## スキル
 - Discord Bot, WebApp 開発
 - サーバーサイド, バックエンド: Java, Kotlin, JavaScript, TypeScript, NodeJS
-- フロントエンド: Vue, React, GrapqhQL, JavaScript, TypeScript
+- フロントエンド: Vue, React, GrapqhQL, JavaScript, TypeScript, jQuery
 - データベース: MySQL, MongoDB, Redis, GoogleSpreadSheet
 - サーバーレス: Netlify Functions, AWS Lambda, Cloud Functions
 - インフラ: Linux, Docker, Nginx, Apache, Cloudflare
-- その他: Heroku, Glitch, Firebase, GoogleAppsScript
+- その他: Heroku, Glitch, Firebase, GoogleAppsScript, Bukkit(Spigot)
 
 ## 環境
 
