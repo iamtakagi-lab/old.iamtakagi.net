@@ -16,7 +16,7 @@ pos: 3
 ## Library・API 
 リポジトリ | 説明
 :--- | :---
-[annict-kotlin](https://github.com/riptakagi/annict-kotlin) | annict.jpのkotlin用ライブラリ (開発中)
+[annict-kotlin](https://github.com/riptakagi/annict-kotlin) | [annict.jp](annict.jp)のkotlin用ライブラリ (開発中)
 
 ## App
 
