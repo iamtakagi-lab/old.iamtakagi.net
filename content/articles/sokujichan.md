@@ -1,10 +1,10 @@
 ---
-title: 'Discord & OBS対応 集計機 | 即時ちゃん(6vs6)【使い方ガイド】'
+title: 'Discord & OBS 即時集計Bot | SokujiChan【使い方ガイド】'
 date: 2020-07-19
 pos: 22
 ---
 
-## 即時ちゃん(6vs6)
+## SokujiChan
 
 ![](https://i.imgur.com/UyoqkLn.png)
 
