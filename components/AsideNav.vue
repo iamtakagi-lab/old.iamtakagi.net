@@ -50,6 +50,14 @@
                 class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
           <icon-twitter class="w-6 h-6" /></a>
 
+          <a href='https://instagram.com/riptakagi'
+          target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+                name="Instagram"
+                class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
+          <icon-instagram class="w-6 h-6" /></a>
+
           <a href='https://qiita.com/riptakagi'
           target="_blank"
                 rel="noopener noreferrer"
