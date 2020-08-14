@@ -49,6 +49,14 @@
                 name="Twitter"
                 class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
           <icon-twitter class="w-6 h-6" /></a>
+
+          <a href='https://qiita.com/riptakagi'
+          target="_blank"
+                rel="noopener noreferrer"
+                title="Qiita"
+                name="Qiita"
+                class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
+          <icon-qiita class="w-6 h-6" /></a>
       </li>
     </ul>
 
