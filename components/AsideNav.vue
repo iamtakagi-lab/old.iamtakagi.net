@@ -16,7 +16,7 @@
        <ColorSwitcher/>
     </div>
 
-    <ul class="lg:pl-0 p-4 lg:py-8 lg:pr-8">
+    <ul class="lg:pl-0 p-2 lg:pt-4 lg:pr-8">
       <li class="list-none inline-flex">
         <a href='https://github.com/riptakagi'
         target="_blank"
@@ -42,7 +42,7 @@
          class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
          <icon-twitch class="w-6 h-6" /></a>
 
-          <a href='https://twitter.com/riptakagi'
+         <a href='https://twitter.com/riptakagi'
           target="_blank"
                 rel="noopener noreferrer"
                 title="Twitter"
@@ -50,6 +50,13 @@
                 class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
           <icon-twitter class="w-6 h-6" /></a>
 
+      </li>
+    </ul>
+
+   <ul class="lg:pl-0 p-2 lg:pt-1 lg:pr-8">
+
+      <li class="list-none inline-flex">
+      
           <a href='https://instagram.com/riptakagi'
           target="_blank"
                 rel="noopener noreferrer"
@@ -57,6 +64,22 @@
                 name="Instagram"
                 class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
           <icon-instagram class="w-6 h-6" /></a>
+
+           <a href='https://open.spotify.com/user/sma0919?si=qON495IPSJ2lnEFdOJBbdA'
+          target="_blank"
+                rel="noopener noreferrer"
+                title="Spotify"
+                name="Spotify"
+                class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
+          <icon-spotify class="w-6 h-6" /></a>
+
+          <a href='https://annict.jp/@Takagi'
+          target="_blank"
+                rel="noopener noreferrer"
+                title="Anncit"
+                name="Annict"
+                class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
+          <icon-annict class="w-6 h-6" /></a>
 
           <a href='https://qiita.com/riptakagi'
           target="_blank"
