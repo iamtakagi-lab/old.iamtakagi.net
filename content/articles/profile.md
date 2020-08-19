@@ -35,28 +35,6 @@ MK8DX 150cc Lounge の Updaterもしています。(2020/06/20 ~)
 - インフラ: Linux, Docker, Nginx, Apache, Cloudflare
 - その他: Heroku, Glitch, Firebase, GoogleAppsScript, Bukkit(Spigot)
 
-## 行ったことがある都道府県
-- 北海道
-- 青森
-- 岩手
-- 山形
-- 宮城
-- 福島
-- 新潟
-- 茨城
-- 栃木
-- 群馬
-- 東京
-- 神奈川(住んでる)
-- 埼玉
-- 長野
-- 山梨
-- 静岡
-- 京都
-- 広島
-- 岡山
-- 沖縄
-
 ## 環境
 
 ### ゲーム・配信用
