@@ -25,3 +25,5 @@ pos: 3
  * * *
 
 <img src="https://grass-graph.moshimo.works/images/riptakagi.png">
+
+ * * *
