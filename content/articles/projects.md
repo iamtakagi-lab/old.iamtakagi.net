@@ -21,3 +21,5 @@ pos: 3
 ## App
 
 現在公開中のものはありません🥺
+
+<img src="https://grass-graph.moshimo.works/images/riptakagi.png">
