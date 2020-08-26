@@ -18,9 +18,11 @@ pos: 3
 :--- | :---
 [annict-kt](https://github.com/riptakagi/annict-kt) | Annict API wrapper for Kotlin
 
-## App
+## Web App
 
-現在公開中のものはありません🥺
+リポジトリ | 説明
+:--- | :---
+[mk8dx-150cc-lounge](https://github.com/riptakagi/mk8dx-150cc-lounge) | MK8DX 150cc Lounge
 
  * * *
 
