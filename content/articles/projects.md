@@ -20,9 +20,9 @@ pos: 3
 
 ## Web App
 
-リポジトリ | 説明
+リポジトリ |　URL | 説明
 :--- | :---
-[mk8dx-150cc-lounge](https://github.com/riptakagi/mk8dx-150cc-lounge) | MK8DX 150cc Lounge
+[mk8dx-150cc-lounge](https://github.com/riptakagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me | MK8DX 150cc Lounge
 
  * * *
 
