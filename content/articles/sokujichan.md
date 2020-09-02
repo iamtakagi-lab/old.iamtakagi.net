@@ -6,7 +6,7 @@ pos: 22
 
 ## SokujiChan
 
-![](https://i.imgur.com/SMR7AjD.png)
+![](https://i.imgur.com/TGIvLKg.png)
 
 マリオカート8DXの6vs6即時集計に対応しているDiscordBotです。配信ツールOBSへの対応もしています。
 
