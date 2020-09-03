@@ -48,17 +48,19 @@
 
 <script>
 export default {
-  async asyncData({ $content }) {
+ async asyncData({ params, query, error, $content }) {
     const articles = await $content("articles" || "index")
       .sortBy("pos", "desc")
       .fetch();
 
-    return { articles };
+    return {
+      currentPage: query["page"] === undefined ? 1 : Number(query["page"]),
+      articles
+    };
   },
   data() {
     return {
-      perPage: 20,
-      currentPage: 1
+      perPage: 20
     };
   },
   head() {
@@ -93,11 +95,6 @@ export default {
       this.currentPage = Number(page);
       this.$router.push(`?page=${page}`);
     }
-  },
-  async asyncData({ params, query, error }) {
-    return {
-      currentPage: query["page"] === undefined ? 1 : Number(query["page"]),
-    };
   }
 };
 </script>
