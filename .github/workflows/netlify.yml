@@ -2,19 +2,18 @@ name: deploy to netlify
 
 on:
   push:
-    branches:
-      - master
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
-        uses: actions/checkout@v2
+     
+      - uses: actions/checkout@v2
 
-      - name: Cache node_modules
-        uses: actions/cache@v1
+      - uses: actions/cache@v1
         with:
           path: node_modules
           key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
@@ -22,18 +21,13 @@ jobs:
             ${{ runner.OS }}-build-
             ${{ runner.OS }}
 
-      - name: Setup Node
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: 12.x
+        - run: npm ci
+        - run: npm run build
 
-      - name: yarn and yarn build
-        run: |
-          yarn
-          yarn build
-
-      - name: Deploy to netlify
-        run: npx netlify-cli deploy --dir=./dist
+      - run: npx netlify-cli deploy --dir=./dist
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
