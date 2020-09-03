@@ -57,7 +57,8 @@ export default {
   },
   data() {
     return {
-      perPage: 20
+      perPage: 20,
+      currentPage: 1
     };
   },
   head() {
