@@ -22,6 +22,7 @@
     "encoding": "^0.1.12",
     "googleapis": "^52.1.0",
     "jquery": "^3.5.1",
+    "netlify-cli": "^2.61.0",
     "netlify-lambda": "^1.6.3",
     "node-sass": "^4.14.1",
     "nuxt": "^2.13.0",
