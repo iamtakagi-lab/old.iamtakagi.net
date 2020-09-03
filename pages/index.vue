@@ -16,6 +16,7 @@
           <button
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 border border-blue-700 rounded"
             v-show="hasPrev"
+            :to="`?page=${getPrev}`"
             @click="clickCallback(getPrev)"
           >前のページ</button>
 
@@ -31,6 +32,7 @@
           <button
             class="bg-blue-500 text-white hover:bg-blue-700 font-bold py-1 px-1 border border-blue-700 rounded"
             v-show="(this.currentPage < Math.ceil(articles.length / this.parPage))"
+            :to="`?page=${getNext}`"
             @click="clickCallback(getNext)"
           >次のページ</button>
 
@@ -91,7 +93,13 @@ export default {
   methods: {
     clickCallback(page) {
       this.currentPage = Number(page);
+      this.$router.push(`?page=${page}`);
     }
+  },
+  async asyncData({ params, query, error }) {
+    return {
+      currentPage: query["page"] === undefined ? 1 : Number(query["page"]),
+    };
   }
 };
 </script>
