@@ -27,18 +27,18 @@
 
           <p
             style="display: inline-flex; margin-left: 5px; margin-right: 5px;"
-          >{{currentPage}} / {{Math.ceil(articles.length / this.parPage)}}</p>
+          >{{currentPage}} / {{Math.ceil(articles.length / this.perPage)}}</p>
 
           <button
             class="bg-blue-500 text-white hover:bg-blue-700 font-bold py-1 px-1 border border-blue-700 rounded"
-            v-show="(this.currentPage < Math.ceil(articles.length / this.parPage))"
+            v-show="(this.currentPage < Math.ceil(articles.length / this.perPage))"
             :to="`?page=${getNext}`"
             @click="clickCallback(getNext)"
           >次のページ</button>
 
           <button
             class="bg-gray-500 text-white font-bold py-1 px-1 border border-gray-700 rounded opacity-50 cursor-not-allowed"
-            v-show="!(this.currentPage < Math.ceil(articles.length / this.parPage))"
+            v-show="!(this.currentPage < Math.ceil(articles.length / this.perPage))"
           >次のページ</button>
         </div>
       </div>
@@ -53,14 +53,11 @@ export default {
       .sortBy("pos", "desc")
       .fetch();
 
-      console.log(articles)
-
     return { articles };
   },
   data() {
     return {
-      parPage: 20,
-      currentPage: 1
+      perPage: 20
     };
   },
   head() {
@@ -70,12 +67,12 @@ export default {
   },
   computed: {
     getCurrent: function() {
-      return this.currentPage * this.parPage;
+      return this.currentPage * this.perPage;
     },
 
     getStart: function() {
-      let current = this.currentPage * this.parPage;
-      return current - this.parPage;
+      let current = this.currentPage * this.perPage;
+      return current - this.perPage;
     },
 
     getPrev: function() {
