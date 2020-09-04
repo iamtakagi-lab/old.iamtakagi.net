@@ -7,5 +7,6 @@ https://takagi.netlify.app
 - Nuxt.js
 - @nuxtjs/content
 - Tailwind CSS
+- GitHub Actions
 - Netlify
 - Netlify Functions
