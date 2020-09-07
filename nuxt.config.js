@@ -178,7 +178,7 @@ export default {
       id: 'ca-pub-7932483299460648',
       pageLevelAds: true,
       analyticsUacct: 'UA-171562434-1',
-      analyticsDomainName: 'riptakagi.me'
+      analyticsDomainName: 'takagi.netlify.app'
     }]
   ],
 
