@@ -18,7 +18,7 @@
 
     <ul class="lg:pl-0 p-2 lg:pt-4 lg:pr-8">
       <li class="list-none inline-flex">
-        <a href='https://github.com/riptakagi'
+        <a href='https://github.com/iam_takagi'
         target="_blank"
                 rel="noopener noreferrer"
                 title="Github"
@@ -34,7 +34,7 @@
          class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
          <icon-youtube class="w-6 h-6" /></a>
 
-         <a href='https://twitch.tv/riptakagi'
+         <a href='https://twitch.tv/iam_takagi'
           target="_blank"
                 rel="noopener noreferrer"
                 title="Twitch"
@@ -42,7 +42,7 @@
          class="px-2 rounded font-medium py-1 block hover:text-blue-500 mr-2">
          <icon-twitch class="w-6 h-6" /></a>
 
-         <a href='https://twitter.com/riptakagi'
+         <a href='https://twitter.com/iam_takagi'
           target="_blank"
                 rel="noopener noreferrer"
                 title="Twitter"
