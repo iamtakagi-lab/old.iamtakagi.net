@@ -22,6 +22,12 @@ GitHub   https://github.com/iam_takagi<br/>
 Annict   https://annict.jp/@Takagi<br/>
 Discord Takagi#8622
 
+**// Subscriptions<br/>**
+niconico
+Spotify
+Netflix
+Amazon Prime
+Twitch Prime
 
 ## Discord Bots
 
