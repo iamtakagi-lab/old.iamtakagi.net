@@ -5,9 +5,9 @@ pos: 3
 ---
 
 // Bio
-MK8DX 150cc Lounge Staff
-Minecraft(DGO Developer)
-Annict Developer
+MK8DX 150cc Lounge Staff¥n
+Minecraft(DGO Developer)¥n
+Annict Developer¥n
 
 ## Discord Bot
 
