@@ -36,7 +36,6 @@ Name | Descrption
 [annict-kt](https://github.com/iam-takagi/annict-kt) | Annict API wrapper for Kotlin
 
 ## Web App
-
 Name | Link
 :--- | :--- 
 [mk8dx-150cc-lounge](https://github.com/iam_takagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me
