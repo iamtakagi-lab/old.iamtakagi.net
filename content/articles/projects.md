@@ -4,6 +4,11 @@ date: 2020-07-02
 pos: 3
 ---
 
+// Bio
+MK8DX 150cc Lounge Staff
+Minecraft(DGO Developer)
+Annict Developer
+
 ## Discord Bot
 
 リポジトリ | 招待リンク | 主な導入鯖 | 導入数(2020/9) | 使い方
