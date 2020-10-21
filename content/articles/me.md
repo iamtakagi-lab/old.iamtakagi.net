@@ -18,6 +18,8 @@ Twitch   https://twitch.tv/iam_takagi<br/>
 YouTube  https://youtube.com/c/Takagi<br/>
 GitHub   https://github.com/iam_takagi<br/>
 Annict   https://annict.jp/@Takagi<br/>
+Discord Takagi#8622
+
 
 ## Discord Bots
 
