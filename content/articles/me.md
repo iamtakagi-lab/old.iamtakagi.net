@@ -4,13 +4,25 @@ date: 2020-10-21
 pos: 3
 ---
 
-## Bio
+## Me
+
+// Bio
+
 i like programming java, kotlin, javascript, python... and infrastructure.
 
 MK8DX 150cc Lounge Staff<br/>
 Minecraft (DGO Developer)<br/>
 Annict Userland Developer<br/>
 Code for MK8DX
+
+// Links
+
+Twitter: <br/>
+Twitch: <br/>
+YouTube: <br/>
+GitHub: <br/>
+Annict: <br/>
+Spotify: <br/>
 
 ## Discord Bots
 
