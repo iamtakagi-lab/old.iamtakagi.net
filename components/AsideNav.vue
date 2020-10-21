@@ -11,7 +11,7 @@
       </li> 
     </ul>
 
-    <div class="inline-flex p-2">
+    <div class="inline-flex p-1">
       <p class="mr-1">テーマ切替:</p>
        <ColorSwitcher/>
     </div>
