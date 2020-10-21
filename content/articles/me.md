@@ -16,7 +16,7 @@ Annict Userland Developer<br/>
 [挙手Bot](https://github.com/riptakagi/KyoshuBot) | [招待する](https://discord.com/api/oauth2/authorize?client_id=705559539872694272&permissions=76800&scope=bot) | GzK | 155+
 [MK8DX TeamBot - チーム分けBot](https://github.com/iam_takagi/mk8dx-teambot) | [招待する](https://discord.com/api/oauth2/authorize?client_id=711910347711316039&permissions=3072&scope=bot) | びく民 |80+
 [MK8DX TrackTable Bot - コース別 予測アイテムテーブルBot](https://github.com/iam_takagi/mk8dx-tracktablebot) | [招待する](https://discord.com/api/oauth2/authorize?client_id=714641356600901736&permissions=35840&scope=bot) | | 190+
-[SokujiChan (OBS対応)](https://github.com/iam_takagi/sokujichan) | [招待する](https://discord.com/api/oauth2/authorize?client_id=716931790865956904&permissions=3136&scope=bot) | | 130+ | [使い方](https://takagi.netlify.app/sokujichan)
+[SokujiChan + Broadcast](https://github.com/iam_takagi/sokujichan) | [招待する](https://discord.com/api/oauth2/authorize?client_id=716931790865956904&permissions=3136&scope=bot) | | 130+ | [使い方](https://takagi.netlify.app/sokujichan)
 
 ## Library・API
 リポジトリ | 説明
