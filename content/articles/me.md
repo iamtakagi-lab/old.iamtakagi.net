@@ -5,7 +5,7 @@ pos: 3
 ---
 
 **// Bio<br/>**
-i like programming java, kotlin, javascript, python... and infrastructure.
+i like programming java, kotlin, javascript, python... and infrastructure.<br/>
 MK8DX 150cc Lounge Staff<br/>
 Minecraft (DGO Developer)<br/>
 Annict Userland Developer<br/>
