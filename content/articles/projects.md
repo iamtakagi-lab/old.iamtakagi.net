@@ -4,7 +4,7 @@ date: 2020-07-02
 pos: 3
 ---
 
-// Bio
+ Bio
 MK8DX 150cc Lounge Staff<br/>
 Minecraft(DGO Developer)<br/>
 Annict Developer<br/>
