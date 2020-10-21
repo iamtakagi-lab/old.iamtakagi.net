@@ -1,15 +1,15 @@
 ---
-title: プロジェクト
+title: About
 date: 2020-07-02
 pos: 3
 ---
 
- Bio
+## Bio
 MK8DX 150cc Lounge Staff<br/>
 Minecraft(DGO Developer)<br/>
 Annict Developer<br/>
 
-## Discord Bot
+## Discord Bots
 
 リポジトリ | 招待リンク | 主な導入鯖 | 導入数(2020/9) | 使い方
 :--- |:--- |:--- |:--- |:--
@@ -18,7 +18,7 @@ Annict Developer<br/>
 [MK8DX TrackTable Bot - コース別 予測アイテムテーブルBot](https://github.com/riptakagi/mk8dx-tracktablebot) | [招待する](https://discord.com/api/oauth2/authorize?client_id=714641356600901736&permissions=35840&scope=bot) | | 175+
 [SokujiChan (OBS対応)](https://github.com/riptakagi/sokujichan) | [招待する](https://discord.com/api/oauth2/authorize?client_id=716931790865956904&permissions=3136&scope=bot) | | 100+ | [使い方](https://takagi.netlify.app/sokujichan)
 
-## Library・API 
+## Library・API
 リポジトリ | 説明
 :--- | :---
 [annict-kt](https://github.com/riptakagi/annict-kt) | Annict API wrapper for Kotlin
