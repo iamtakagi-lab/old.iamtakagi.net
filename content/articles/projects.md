@@ -27,7 +27,7 @@ Annict Developer<br/>
 
 リポジトリ |　URL | 説明
 :--- | :--- | :--- 
-[mk8dx-150cc-lounge](https://github.com/riptakagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me | MK8DX 150cc Lounge Leaderboard & Stats
+[mk8dx-150cc-lounge](https://github.com/riptakagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me | MK8DX 150cc Lounge Stats Viewer
 
  * * *
 
