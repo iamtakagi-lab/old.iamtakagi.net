@@ -1,6 +1,6 @@
 ---
-title: About
-date: 2020-07-02
+title: Me
+date: 2020
 pos: 3
 ---
 
