@@ -13,11 +13,11 @@ Annict Userland Developer<br/>
 Code for MK8DX
 
 **// Links<br/>**
-Twitter: https://twitter.com/iam_takagi<br/>
-Twitch:  https://twitch.tv/iam_takagi<br/>
-YouTube: https://youtube.com/c/Takagi<br/>
-GitHub:  https://github.com/iam_takagi<br/>
-Annict:  https://annict.jp/@Takagi<br/>
+Twitter  https://twitter.com/iam_takagi<br/>
+Twitch   https://twitch.tv/iam_takagi<br/>
+YouTube  https://youtube.com/c/Takagi<br/>
+GitHub   https://github.com/iam_takagi<br/>
+Annict   https://annict.jp/@Takagi<br/>
 
 ## Discord Bots
 
