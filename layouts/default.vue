@@ -33,9 +33,8 @@ export default {
   data() {
     return {
       items: [
-        { title: "ホーム", path: "/" },
-        { title: "プロジェクト", path: "/projects" },
-        { title: "プロフィール", path: "/profile" }
+        { title: "Home", path: "/" },
+        { title: "Me", path: "/me" },
       ]
     };
   },
