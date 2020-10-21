@@ -14,7 +14,7 @@ Code for MK8DX
 **// Links<br/>**
 Twitter  https://twitter.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
-YouTube  https://www.youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw<br/>
+YouTube  youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw<br/>
 GitHub   https://github.com/iam_takagi<br/>
 Annict   https://annict.jp/@Takagi<br/>
 Discord Takagi#8622
