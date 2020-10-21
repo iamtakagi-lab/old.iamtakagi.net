@@ -4,8 +4,6 @@ date: 2020-10-21
 pos: 3
 ---
 
-## Me
-
 **// Bio<br/>**
 i like programming java, kotlin, javascript, python... and infrastructure.
 
