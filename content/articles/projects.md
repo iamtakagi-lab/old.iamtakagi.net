@@ -7,7 +7,7 @@ pos: 3
 ## Bio
 MK8DX 150cc Lounge Staff<br/>
 Minecraft(DGO Developer)<br/>
-Annict Developer<br/>
+Annict Userland Developer<br/>
 
 ## Discord Bots
 
