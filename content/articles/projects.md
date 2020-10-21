@@ -31,6 +31,6 @@ Annict Developer<br/>
 
  * * *
 
-<img src="https://grass-graph.moshimo.works/images/riptakagi.png">
+<img src="https://grass-graph.moshimo.works/images/iam_takagi.png">
 
  * * *
