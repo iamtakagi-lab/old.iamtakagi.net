@@ -17,7 +17,7 @@ Code for MK8DX
 **// Links<br/>**
 Twitter  https://twitter.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
-YouTube  https://youtube.com/c/Takagi<br/>
+YouTube  https://www.youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw<br/>
 GitHub   https://github.com/iam_takagi<br/>
 Annict   https://annict.jp/@Takagi<br/>
 Discord Takagi#8622
@@ -26,7 +26,6 @@ Discord Takagi#8622
 niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC, JetBrains
 
 ## Discord Bots
-
 Name | Invite | Servers (2020/10) | Usage | Using Servers
 :--- |:--- |:--- |:--- |:--
 [挙手Bot](https://github.com/iam-takagi/KyoshuBot) | [Invite](https://discord.com/api/oauth2/authorize?client_id=705559539872694272&permissions=76800&scope=bot) | 155+ | | GzK
