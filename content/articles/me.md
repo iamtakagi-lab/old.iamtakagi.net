@@ -6,7 +6,7 @@ pos: 3
 
 ## Me
 
-// Bio
+// Bio<br/>
 i like programming java, kotlin, javascript, python... and infrastructure.
 
 MK8DX 150cc Lounge Staff<br/>
@@ -14,7 +14,7 @@ Minecraft (DGO Developer)<br/>
 Annict Userland Developer<br/>
 Code for MK8DX
 
-// Links
+// Links<br/>
 Twitter: <br/>
 Twitch: <br/>
 YouTube: <br/>
