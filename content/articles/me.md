@@ -14,7 +14,7 @@ Code for MK8DX
 
 ## Discord Bots
 
-Name | Invite | Servers (2020/10) | Usage | Using
+Name | Invite | Servers (2020/10) | Usage | Using Servers
 :--- |:--- |:--- |:--- |:--
 [挙手Bot](https://github.com/iam-takagi/KyoshuBot) | [Invite](https://discord.com/api/oauth2/authorize?client_id=705559539872694272&permissions=76800&scope=bot) | 155+ | | GzK
 [MK8DX TeamBot - チーム分けBot](https://github.com/iam-takagi/mk8dx-teambot) | [Invite](https://discord.com/api/oauth2/authorize?client_id=711910347711316039&permissions=3072&scope=bot) | 80+ | | びく民
