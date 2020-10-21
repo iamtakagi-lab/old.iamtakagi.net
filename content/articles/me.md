@@ -23,7 +23,7 @@ Annict   https://annict.jp/@Takagi<br/>
 Discord Takagi#8622
 
 **// Subscriptions<br/>**
-niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime
+niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC
 
 ## Discord Bots
 
