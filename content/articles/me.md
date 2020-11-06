@@ -12,7 +12,7 @@ Annict Userland Developer<br/>
 Code for MK8DX
 
 **// Links<br/>**
-Twitter  https://www.geartics.com/internetkuso<br/>
+Twitter  https://www.geartics.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
 YouTube  https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw<br/>
 GitHub   https://github.com/iam-takagi<br/>
@@ -23,7 +23,7 @@ Discord Takagi#8622
 niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC, JetBrains
 
 **// Devices<br/>**
-https://www.geartics.com/internetkuso
+https://www.geartics.com/iam_takagi
 
 <img src="https://i.imgur.com/wV665pE.jpg" width="300">
 
