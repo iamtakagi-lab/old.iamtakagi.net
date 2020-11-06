@@ -23,7 +23,7 @@ Discord Takagi#8622
 niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC, JetBrains
 
 **// Devices<br/>**
-https://www.geartics.com/internetkuso
+https://www.geartics.com/internetkuso<br/>
 <img src="https://github.com/iam-takagi/takagi.netlify.app/blob/master/content/images/devices.jpg">
 
 
