@@ -12,7 +12,7 @@ Annict Userland Developer<br/>
 Code for MK8DX
 
 **// Links<br/>**
-Twitter  https://twitter.com/iam_takagi<br/>
+Twitter  https://www.geartics.com/internetkuso<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
 YouTube  https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw<br/>
 GitHub   https://github.com/iam-takagi<br/>
