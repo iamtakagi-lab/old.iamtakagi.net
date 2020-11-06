@@ -25,8 +25,6 @@ niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC,
 **// Devices<br/>**
 https://www.geartics.com/internetkuso
 
-<img src="https://i.imgur.com/wV665pE.jpg" width="300">
-
 ## Discord Bots
 Name | Invite | Servers (2020/10) | Usage | Using Servers
 :--- |:--- |:--- |:--- |:--
