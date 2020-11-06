@@ -22,6 +22,11 @@ Discord Takagi#8622
 **// Subscriptions<br/>**
 niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC, JetBrains
 
+**// Devices<br/>**
+https://www.geartics.com/internetkuso
+
+
+
 ## Discord Bots
 Name | Invite | Servers (2020/10) | Usage | Using Servers
 :--- |:--- |:--- |:--- |:--
