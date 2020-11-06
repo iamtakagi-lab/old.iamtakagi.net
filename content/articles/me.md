@@ -24,7 +24,7 @@ niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC,
 
 **// Devices<br/>**
 https://www.geartics.com/internetkuso
-
+<img src="https://github.com/iam-takagi/takagi.netlify.app/blob/master/content/images/devices.jpg">
 
 
 ## Discord Bots
