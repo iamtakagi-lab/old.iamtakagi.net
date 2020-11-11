@@ -37,21 +37,21 @@ Samusung SSD 860 EVO 500GB<br/>
 2710DCS23-360 300GB<br/>
 ST2000DM006-2DM164 2TB<br/>
 
-**Note PC**
+**Note PC**<br/>
 Dell Latitude E4310
 MacBook Pro 2020 13-inch (lowest model)
 
-**Phone**
-Arrows
-iPhone5s
-iPhone6s
-iPhone7s
-iPhone 11 Pro
+**Phone**<br/>
+Arrows<br/>
+iPhone5s<br/>
+iPhone6s<br/>
+iPhone7s<br/>
+iPhone 11 Pro<br/>
 
-**Tablet**
-iPad mini3?
-iPad mini4?
-iPad 8 Gold
+**Tablet**<br/>
+iPad mini3?<br/>
+iPad mini4?<br/>
+iPad 8 Gold<br/>
 
 ## Mobile App
 Name | Link
