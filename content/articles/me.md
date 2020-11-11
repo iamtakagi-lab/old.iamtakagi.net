@@ -62,6 +62,7 @@ https://www.geartics.com/iam_takagi
 
 <img src="https://i.imgur.com/wV665pE.jpg" width="300">
 
+
 **Gaming PC**<br/>
 Fractal Design Define R5
 ROG STRIX Z370-F GAMING<br/>
