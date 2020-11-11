@@ -27,6 +27,33 @@ https://www.geartics.com/iam_takagi
 
 <img src="https://i.imgur.com/wV665pE.jpg" width="300">
 
+**// Gears <br/>**
+**Gaming PC**<br/>
+Fractal Design Define R5
+ROG STRIX Z370-F GAMING<br/>
+Intel Core i7-8700<br/>
+DDR4 8GB<br/>
+Geforce GTX 1080<br/>
+Samusung SSD 860 EVO 500GB<br/>
+2710DCS23-360 300GB<br/>
+ST2000DM006-2DM164 2TB<br/>
+
+**Note PC**
+Dell Latitude E4310
+MacBook Pro 2020 13-inch (lowest model)
+
+**Phone**
+Arrows
+iPhone5s
+iPhone6s
+iPhone7s
+iPhone 11 Pro
+
+**Tablet**
+iPad mini3?
+iPad mini4?
+iPad 8 Gold
+
 ## Mobile App
 Name | Link
 :--- | :--- 
