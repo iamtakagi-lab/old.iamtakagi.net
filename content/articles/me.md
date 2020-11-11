@@ -22,12 +22,11 @@ Discord Takagi#8622
 **// Subscriptions<br/>**
 niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC, JetBrains
 
-**// Devices<br/>**
+**// Gears<br/>**
 https://www.geartics.com/iam_takagi
 
 <img src="https://i.imgur.com/wV665pE.jpg" width="300">
 
-**// Gears <br/>**
 **Gaming PC**<br/>
 Fractal Design Define R5
 ROG STRIX Z370-F GAMING<br/>
