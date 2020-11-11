@@ -60,8 +60,7 @@ niconico(Q), Spotify, Netflix, Amazon Prime, Twitch Prime, GitHub Pro, Adobe CC,
 **// Gears<br/>**
 https://www.geartics.com/iam_takagi
 
-<img src="https://i.imgur.com/wV665pE.jpg" width="300">
-
+<img src="https://i.imgur.com/wV665pE.jpg" width="300"><br/>
 
 **Gaming PC**<br/>
 Fractal Design Define R5
