@@ -4,14 +4,12 @@ date: 2020-10-21
 pos: 3
 ---
 
-**// Bio<br/>**
 i like programming java, kotlin, javascript... and infrastructure.<br/>
 MK8DX 150cc Lounge Staff<br/>
 Minecraft (DGO Developer)<br/>
 Annict Userland Developer<br/>
 Code for MK8DX
 
-**// Links<br/>**
 Twitter  https://www.geartics.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
 YouTube  https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw<br/>
@@ -27,6 +25,10 @@ https://www.geartics.com/iam_takagi
 
 <img src="https://i.imgur.com/wV665pE.jpg" width="300">
 
+## Mobile App
+Name | Link
+:--- | :--- 
+
 ## Discord Bots
 Name | Invite | Servers (2020/10) | Usage | Using Servers
 :--- |:--- |:--- |:--- |:--
@@ -41,11 +43,12 @@ Name | Invite | Servers (2020/10) | Usage | Using Servers
 Name | Descrption
 :--- | :---
 [annict-kt](https://github.com/iam-takagi/annict-kt) | Annict API wrapper for Kotlin
+[mk-tracks](https://github.com/iam-takagi/mk-tracks) | JSON-based Mario Kart Tracks Library.
 
 ## Web App
 Name | Link
 :--- | :--- 
-[mk8dx-150cc-lounge](https://github.com/iam_takagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me
+[mk8dx-150cc-lounge](https://github.com/iam-takagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me
 
  * * *
 
