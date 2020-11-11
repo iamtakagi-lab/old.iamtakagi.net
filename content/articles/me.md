@@ -4,6 +4,8 @@ date: 2020-10-21
 pos: 3
 ---
 
+## Bio 
+
 ('01) // (dev) =>{ library, web apps, mobile apps, bots }
 
 i like programming java, kotlin, javascript... and infrastructure.<br/>
