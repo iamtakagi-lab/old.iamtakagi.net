@@ -6,7 +6,7 @@ pos: 3
 
 ## Bio 
 
-('01) // (dev) =>{ library, web apps, mobile apps, bots }
+('01) // (dev) => { library, web apps, mobile apps, bots }
 
 i like programming java, kotlin, javascript... and infrastructure.<br/>
 MK8DX 150cc Lounge Staff<br/>
