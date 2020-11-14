@@ -41,7 +41,7 @@ Name | Invite | Servers (2020/10) | Usage | Using Servers
 ## Library・API
 Name | Descrption
 :--- | :---
-[annict-kt](https://github.com/iam-takagi/annict-kt) | Annict API wrapper for Kotlin
+[annict-kt](https://github.com/iam-takagi/annict-kt) | Annict API wrapper for Kotlin.
 [mk-tracks](https://github.com/iam-takagi/mk-tracks) | JSON-based Mario Kart Tracks Library.
 
 ## Web App
