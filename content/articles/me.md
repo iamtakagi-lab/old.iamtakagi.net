@@ -22,13 +22,12 @@ Annict   https://annict.jp/@Takagi<br/>
 Discord Takagi#8622
 
 ## Mobile App
-Name | Platform
+Repo | Platform
 :--- |:---
-My MK Times | iOS, Android
-
+[My MK Times](https://github.com/iam-takagi/my-mk-times/) | iOS, Android
 
 ## Discord Bots
-Name | Invite | Servers (2020/10) | Usage | Using Servers
+Repo | Invite | Servers (2020/10) | Usage | Using Servers
 :--- |:--- |:--- |:--- |:--
 [挙手Bot](https://github.com/iam-takagi/KyoshuBot) | [Invite](https://discord.com/api/oauth2/authorize?client_id=705559539872694272&permissions=76800&scope=bot) | 155+ | | GzK
 [MK8DX TeamBot - チーム分けBot](https://github.com/iam-takagi/mk8dx-teambot) | [Invite](https://discord.com/api/oauth2/authorize?client_id=711910347711316039&permissions=3072&scope=bot) | 80+ | | びく民
@@ -39,19 +38,19 @@ Name | Invite | Servers (2020/10) | Usage | Using Servers
 ※諸事情によりBotの提供を中止させていただいております。
 
 ## Library・API
-Name | Descrption
+Repo | Descrption
 :--- | :---
 [annict-kt](https://github.com/iam-takagi/annict-kt) | Annict API wrapper for Kotlin.
 [mk-tracks](https://github.com/iam-takagi/mk-tracks) | JSON-based Mario Kart Tracks Library.
 
 ## Web App
-Name | Link
+Repo | Link
 :--- | :--- 
 [mk8dx-150cc-lounge](https://github.com/iam-takagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me
  
  
 ## Twitter Bots
-Name | Link
+Repo | Link
 :--- | :--- 
 [150cc-lounge-twitter](https://github.com/iam-takagi/150cc-lounge-twitter) | https://twitter.com/150cc_lounge
 
