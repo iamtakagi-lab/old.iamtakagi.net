@@ -8,7 +8,7 @@ pos: 3
 
 ('01) // (dev) => { library, web apps, mobile apps, bots }
 
-i like programming java, kotlin, javascript... and infrastructure.<br/>
+i write code java, kotlin, javascript, python... and infrastructure.<br/>
 MK8DX 150cc Lounge Staff<br/>
 Minecraft (DGO Developer)<br/>
 Annict Userland Developer<br/>
