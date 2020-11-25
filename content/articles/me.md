@@ -52,7 +52,7 @@ Repo | Link
 ## Twitter Bots
 Repo | Link
 :--- | :--- 
-| https://twitter.com/learnwaluigi
+ | https://twitter.com/learnwaluigi
 
  * * *
 
