@@ -50,9 +50,9 @@ Repo | Link
  
  
 ## Twitter Bots
-Repo | Link
+Repo | Account
 :--- | :--- 
- | https://twitter.com/learnwaluigi
+None | https://twitter.com/learnwaluigi
 
  * * *
 
