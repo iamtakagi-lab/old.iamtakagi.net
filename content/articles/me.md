@@ -52,7 +52,7 @@ Repo | Link
 ## Twitter Bots
 Repo | Link
 :--- | :--- 
-[150cc-lounge-twitter](https://github.com/iam-takagi/150cc-lounge-twitter) | https://twitter.com/150cc_lounge
+| https://twitter.com/learnwaluigi
 
  * * *
 
