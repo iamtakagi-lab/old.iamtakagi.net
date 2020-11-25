@@ -44,13 +44,13 @@ Repo | Descrption
 [mk-tracks](https://github.com/iam-takagi/mk-tracks) | JSON-based Mario Kart Tracks Library.
 
 ## Web App
-Repo | Link
+Repo | URL
 :--- | :--- 
 [mk8dx-150cc-lounge](https://github.com/iam-takagi/mk8dx-150cc-lounge) | https://150cc-lounge.glitch.me
  
  
 ## Twitter Bots
-Repo | Account
+Repo | URL
 :--- | :--- 
 None | https://twitter.com/learnwaluigi
 
