@@ -6,13 +6,9 @@ pos: 3
 
 ## Bio 
 
-('01) // (dev) => { library, web apps, mobile apps, bots }
-
 i write code java, kotlin, javascript, python... and infrastructure.<br/>
-MK8DX 150cc Lounge Staff<br/>
-Minecraft (DGO Developer)<br/>
-Annict Userland Developer<br/>
-Code for MK8DX
+
+minecraft plugins / web apps / mobile apps / discord bots / twitter bots / libs.
 
 Twitter  https://www.geartics.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
