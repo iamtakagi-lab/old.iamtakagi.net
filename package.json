@@ -29,6 +29,7 @@
     "prism-themes": "^1.4.0",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^2.0.1",
+    "tailwindcss-dark-mode": "^1.1.7",
     "vue-scrollactive": "^0.9.3"
   },
   "devDependencies": {
