@@ -8,7 +8,7 @@ pos: 3
 
 i write code java, kotlin, javascript, python... and infrastructure.<br/>
 
-i was born in 2001/09/19
+i was born on September 19th, 2001.
 
 i can makes are minecraft plugins / web apps / mobile apps / discord bots / twitter bots / libs.
 
