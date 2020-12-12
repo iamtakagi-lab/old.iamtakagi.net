@@ -5,11 +5,11 @@ pos: 3
 ---
 
 ## Bio 
-i was born on September 19th, 2001 in Japan.
+I was born on September 19th, 2001 in Japan.
 
-i write code java, kotlin, javascript, python... and infrastructure.<br/>
+I write code java, kotlin, javascript, python... and infrastructure.<br/>
 
-i can makes are minecraft plugins / web apps / mobile apps / discord bots / twitter bots / libs.
+I can makes are minecraft plugins / web apps / mobile apps / discord bots / twitter bots / libs.
 
 MK8DX: 150cc Lounge Staff<br/>
 Minecraft: DGO Developer
