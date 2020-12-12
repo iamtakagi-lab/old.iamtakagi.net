@@ -8,9 +8,9 @@ pos: 3
 
 i write code java, kotlin, javascript, python... and infrastructure.<br/>
 
-born in 2001/09/19
+i was born in 2001/09/19
 
-minecraft plugins / web apps / mobile apps / discord bots / twitter bots / libs.
+i can makes are minecraft plugins / web apps / mobile apps / discord bots / twitter bots / libs.
 
 MK8DX: 150cc Lounge Staff<br/>
 Minecraft: DGO Developer
