@@ -8,7 +8,11 @@ pos: 3
 
 i write code java, kotlin, javascript, python... and infrastructure.<br/>
 
+born in 2001/09/19
+
 minecraft plugins / web apps / mobile apps / discord bots / twitter bots / libs.
+
+MK8DX: 150cc Lounge Staff / Minecraft: DGO Developer
 
 Twitter  https://www.geartics.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
