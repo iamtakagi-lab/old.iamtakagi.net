@@ -19,7 +19,7 @@ Discord Takagi#8622
 
  * * *
 
-## Gears
+# Gears
 https://www.geartics.com/iam_takagi
 
 <img src="https://i.imgur.com/wV665pE.jpg" width="300"><br/>
