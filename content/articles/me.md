@@ -1,7 +1,7 @@
 ---
 title: Me
 date: 2020-01-24
-pos: 3
+pos: 0
 ---
 
 ## Bio 
