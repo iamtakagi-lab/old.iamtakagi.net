@@ -13,12 +13,6 @@ GitHub   https://github.com/iam-takagi<br/>
 Annict   https://annict.jp/@Takagi<br/>
 Discord Takagi#8622
 
- * * *
-
-<img src="https://grass-graph.moshimo.works/images/iam-takagi.png">
-
- * * *
-
 ## Gear
 https://www.geartics.com/iam_takagi
 
