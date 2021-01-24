@@ -6,7 +6,7 @@ pos: 3
 
 # Bio 
 
-Twitter  https://www.geartics.com/iam_takagi<br/>
+Twitter  https://twitter.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
 YouTube  https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw<br/>
 GitHub   https://github.com/iam-takagi<br/>
