@@ -4,7 +4,7 @@ date: 2020-10-21
 pos: 3
 ---
 
-## Bio 
+# Bio 
 
 Twitter  https://www.geartics.com/iam_takagi<br/>
 Twitch   https://twitch.tv/iam_takagi<br/>
@@ -19,12 +19,12 @@ Discord Takagi#8622
 
  * * *
 
-**// Gears<br/>**
+## Gears
 https://www.geartics.com/iam_takagi
 
 <img src="https://i.imgur.com/wV665pE.jpg" width="300"><br/>
 
-**Gaming PC**<br/>
+## Desktop
 Fractal Design Define R5
 ROG STRIX Z370-F GAMING<br/>
 Intel Core i7-8700<br/>
@@ -34,18 +34,21 @@ Samusung SSD 860 EVO 500GB<br/>
 2710DCS23-360 300GB<br/>
 ST2000DM006-2DM164 2TB<br/>
 
-**Note PC**<br/>
+## Laptop
 Dell Latitude E4310<br/>
 MacBook Pro 2020 13-inch (lowest model)<br/>
 
-**Phone**<br/>
+## Server
+null
+
+## Phone
 Arrows<br/>
 iPhone5s<br/>
 iPhone6s<br/>
 iPhone7s<br/>
 iPhone 11 Pro<br/>
 
-**Tablet**<br/>
+## Tablet
 iPad mini3?<br/>
 iPad mini4?<br/>
 iPad 8 Gold<br/>
