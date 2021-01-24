@@ -35,8 +35,8 @@ Samusung SSD 860 EVO 500GB<br/>
 ST2000DM006-2DM164 2TB<br/>
 
 ## Laptop
+MacBook Pro 2020 13-inch<br/>
 Dell Latitude E4310<br/>
-MacBook Pro 2020 13-inch (lowest model)<br/>
 
 ## Server
 null
