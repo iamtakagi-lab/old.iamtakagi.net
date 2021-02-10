@@ -1,6 +1,6 @@
 ---
 title: Me
-date: 2020-01-24
+date: 2020-02-10
 pos: 0
 ---
 
@@ -17,7 +17,7 @@ Discord Takagi#8622
 ## Gear
 https://www.geartics.com/iam_takagi
 
-<img src="https://i.imgur.com/wV665pE.jpg" width="300">\
+<img src="https://i.imgur.com/wV665pE.jpg" width="300">
 
 ### Desktop
 NZXT H510 CA-H510B-W1\
