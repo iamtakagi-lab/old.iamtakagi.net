@@ -84,4 +84,4 @@ iPad 8
 
 ### Accessory
 WF-1000XM3 ブラック\
-Apple EarPods
+EarPods
