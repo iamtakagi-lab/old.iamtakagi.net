@@ -69,9 +69,9 @@ export default {
   },
 
   manifest: {
-    "name":				"たかぎめも",
-    "short_name":		"たかぎめも",
-    "description":		"たかぎのブログ",
+    "name":				"Takagi",
+    "short_name":		"Takagi",
+    "description":		"takagi webpage",
     "start_url":		"/",
     "display":			"standalone",
     "orientation":		"any",
