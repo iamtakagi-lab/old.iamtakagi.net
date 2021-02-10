@@ -4,12 +4,16 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  mode: 'spa',
+  ssr: true,
+ /*
+ ** Nuxt target
+ ** See https://nuxtjs.org/api/configuration-target
+ */
+  target: 'server',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  target: 'dist',
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
