@@ -11,7 +11,7 @@
             class="text-xl font-bold tracking-tight flex items-center flex-shrink-0"
             style="width: 104px;"
             aria-label="Nuxt Content Logo"
-          >たかぎめも</NuxtLink>
+          >Takagi</NuxtLink>
         </div>
 
         <div class="hidden flex-1 lg:flex justify-center ml-4 mr-2 lg:mx-8 w-4/6">

@@ -23,7 +23,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://riptakagi.me'
+        content: 'https://takagi.netlify.me'
       },
       {
         hid: 'twitter:card',
@@ -33,12 +33,12 @@ export default {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@riptakagi'
+        content: '@iam_takagi'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@riptakagi'
+        content: '@iam_takagi'
       },
       {
         hid: 'note:card',
@@ -71,7 +71,7 @@ export default {
   manifest: {
     "name":				"Takagi",
     "short_name":		"Takagi",
-    "description":		"takagi webpage",
+    "description":		"Takagi webpage",
     "start_url":		"/",
     "display":			"standalone",
     "orientation":		"any",
