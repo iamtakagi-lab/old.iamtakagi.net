@@ -39,6 +39,7 @@ BenQ GL2260T 21.5-inch
 FILCO Majestouch2 108\
 Logicool G Pro Wireless\
 Corsair Gaming MM300 Gaming Mouse Mat - Extended
+Wacom Intuos CTH-480
 
 ### Server
 Ubuntu 20.04.1 LTS\
