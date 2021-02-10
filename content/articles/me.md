@@ -18,7 +18,7 @@ Discord Takagi#8622
 <img src="https://i.imgur.com/wV665pE.jpg" width="300">
 
 ### Desktop
-Windows 10 Home
+Windows 10 Home\
 NZXT H510 CA-H510B-W1\
 AMD Ryzen 7 5800X\
 MSI MPG B550 GAMING PLUS\
