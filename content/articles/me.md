@@ -53,7 +53,7 @@ ST2000DM006-2DM164 2TB\
 
 Razer BlackWidow X Chroma JP\
 SteelSeries Sensei RAW Frost Blue\
-Diamondcrysta WIDE RDT233WLM-D 23inch\
+Diamondcrysta WIDE RDT233WLM-D 23inch
 
 PX-W3U4\
 SCR3310/v2.0
