@@ -48,17 +48,17 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'たかぎのブログ'
+        content: 'takagi webpage'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'たかぎのブログ'
+        content: 'takagi webpage'
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://i.imgur.com/vUy5pMl.png'
+        content: 'https://i.imgur.com/2H3huOt.jpg'
       },
     ],
     link: [
