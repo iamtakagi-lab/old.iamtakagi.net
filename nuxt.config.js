@@ -210,7 +210,7 @@ export default {
   },
 
   colorMode: {
-    preference: 'light'
+    preference: 'dark'
   },
 
   axios: {
