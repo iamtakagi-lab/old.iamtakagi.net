@@ -5,8 +5,6 @@ pos: 0
 ---
 
 ## Bio 
-Minecraft / MK8DX / DTV
-
 Twitter  https://twitter.com/iam_takagi \
 Twitch   https://twitch.tv/iam_takagi \
 YouTube  https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw \
