@@ -1,6 +1,7 @@
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
+  
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
