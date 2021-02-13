@@ -1,19 +1,6 @@
 
 export default {
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  ssr: true,
- /*
- ** Nuxt target
- ** See https://nuxtjs.org/api/configuration-target
- */
-  target: 'server',
-  /*
-  ** Nuxt target
-  ** See https://nuxtjs.org/api/configuration-target
-  */
+  mode: 'spa',
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
@@ -226,6 +213,6 @@ export default {
   */
 
   proxy: {
-    '/.netlify/': { target: 'http://localhost' }
+    '/.netlify/': { target: process.env.NODE_ENV === 'production' ? 'http://localhost' : 'http://localhost:9000' }
   }
 }
