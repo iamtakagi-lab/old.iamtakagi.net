@@ -30,11 +30,10 @@ export default {
       .sortBy("date", "desc")
       .fetch();
 
-    const ranking = [];
-
     for (var i = 0; i < rows.length; i++) {
       const item = rows[i];
-      const slug = item.dimensions.toString().split("/")[1];
+      let slug = item.dimensions.toString().split("/")[1]
+      slug = str.substring(0, str.indexOf("/"))
 
       if (slug != "" && slug != null && slug != undefined) {
         const pv = Number(item.metrics[0].values);
