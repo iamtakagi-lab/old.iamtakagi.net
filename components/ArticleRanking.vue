@@ -7,9 +7,17 @@
       :key="i"
       class="mt-4 font-midium text-gray-600 dark:text-gray-500 hover:text-gray-800 dark-hover:text-gray-100"
     >
-      <nuxt-link
-        :to="r.article.slug"
-      >{{ i+1 + '位 (' + r.pv + ' views): ' + r.article.title + ' (' + $dayjs(r.article.date).format('YYYY/MM/DD') + ')' }}</nuxt-link>
+      <nuxt-link :to="r.article.slug">{{
+        i +
+        1 +
+        "位 (" +
+        r.pv +
+        " views): " +
+        r.article.title +
+        " (" +
+        $dayjs(r.article.date).format("YYYY/MM/DD") +
+        ")"
+      }}</nuxt-link>
     </div>
   </div>
 </template>
@@ -18,7 +26,7 @@
 export default {
   data() {
     return {
-      ranking: []
+      ranking: [],
     };
   },
   async fetch() {
@@ -30,25 +38,25 @@ export default {
       .sortBy("date", "desc")
       .fetch();
 
-    const ranking = [];
-
     for (var i = 0; i < rows.length; i++) {
       const item = rows[i];
-      const slug = item.dimensions.toString().split("/")[1];
+      let slug = item.dimensions.toString().split("/")[1];
 
       if (slug != "" && slug != null && slug != undefined) {
         const pv = Number(item.metrics[0].values);
 
-        const article = articles.find(v => v.slug === slug);
+        const article = articles.find((v) => v.slug === slug);
 
         if (article) {
-          this.ranking.push({
-            pv: pv,
-            article: articles.find(v => v.slug === slug)
-          });
+          if (!this.ranking.find((v) => v.article.slug === article.slug)) {
+            this.ranking.push({
+              pv: pv,
+              article: articles.find((v) => v.slug === slug)
+            });
+          }
         }
       }
     }
-  }
+  },
 };
 </script>
