@@ -5,12 +5,16 @@ pos: 0
 ---
 
 ## Bio 
-Twitter  https://twitter.com/iam_takagi \
-Twitch   https://twitch.tv/iam_takagi \
-YouTube  https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw \
-GitHub   https://github.com/iam-takagi \
-Annict   https://annict.jp/@Takagi \
-Discord Takagi#8622
+- Twitter  https://twitter.com/iam_takagi
+  - Pets 
+    - https://twitter.com/learnwaluigi
+    - https://twitter.com/learnshizue
+- Streaming
+  - YouTube https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw
+  - Twitch https://twitch.tv/iam_takagi
+- GitHub   https://github.com/iamtakagi
+- Annict   https://annict.jp/@Takagi
+- Discord Takagi#8622
 
 ## Gear
 <img src="https://i.imgur.com/wV665pE.jpg" width="300">
