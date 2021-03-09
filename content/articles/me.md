@@ -6,8 +6,6 @@ pos: 0
 
 ## Bio 
 Twitter https://twitter.com/iam_takagi \
-Twitter Pet ① https://twitter.com/learnwaluigi \
-Twitter Pet ② https://twitter.com/learnshizue \
 YouTube https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw \
 Twitch https://twitch.tv/iam_takagi \
 GitHub   https://github.com/iamtakagi \
