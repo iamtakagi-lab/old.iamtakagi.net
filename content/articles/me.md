@@ -10,4 +10,4 @@ GitHub https://github.com/iamtakagi \
 Annict https://annict.jp/@Takagi \
 YouTube https://youtube.com/channel/UCwPdVUvF4gOlJCwl9LW4hyw \
 Twitch https://twitch.tv/iam_takagi \
-Discord Takagi#8622
+Discord https://discord.com/invite/XSwGKpYcgn
